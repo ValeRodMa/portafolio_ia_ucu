@@ -2,10 +2,10 @@
 
   <img src="https://drive.google.com/uc?export=view&id=1-n9gUav1FFPMQGNrH390TYvw1hSGkUCr"
        alt="Valentín"
-       style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:4px solid #fff; box-shadow:0 0 8px rgba(0,0,0,.15);">
+       style="width:120px; height:120px; object-fit:cover; border:4px solid #fff; box-shadow:0 0 8px rgba(0,0,0,.15);">
 
   <div>
-    <h2>Acerca de mí</h2>
+    <h2>Valentín Rodríguez Machado</h2>
     <p>
       Soy estudiante de <strong>Ingeniería en Inteligencia Artificial y Ciencia de Datos</strong> en la 
       <strong>Universidad Católica del Uruguay</strong>.  
