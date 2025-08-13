@@ -9,7 +9,13 @@ Soy estudiante de Ingeniería en Inteligencia Artificial y Ciencia de Datos en l
 Tengo un gran interés por el análisis de datos y las aplicaciones prácticas de la inteligencia artificial en la resolución de problemas reales.
 
 ## Habilidades
-- Lenguajes / herramientas relevantes
+• Comunicación.
+
+• Domino oral y escrito del idioma inglés.
+
+• Adaptabilidad para el trabajo en equipo.
+
+• Enfoque orientado a objetivos.
 
 ## Contacto
 vale.rodriguez@correo.ucu.edu.uy
