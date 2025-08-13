@@ -1,14 +1,15 @@
 ---
 title: "Acerca de mí"
-date: 2025-01-01
+date: 2025-08-13
 ---
 
 # Acerca de mí
 
-Breve presentación personal, intereses y objetivos para este curso.
+Soy estudiante de Ingeniería en Inteligencia Artificial y Ciencia de Datos en la Universidad Católica del Uruguay. 
+Tengo un gran interés por el análisis de datos y las aplicaciones prácticas de la inteligencia artificial en la resolución de problemas reales.
 
 ## Habilidades
 - Lenguajes / herramientas relevantes
 
 ## Contacto
-- Email institucional
+vale.rodriguez@correo.ucu.edu.uy
