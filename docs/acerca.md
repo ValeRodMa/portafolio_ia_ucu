@@ -1,9 +1,3 @@
-<div style="display: flex; align-items: center; gap: 20px;">
-
-  <img src="https://drive.google.com/uc?export=view&id=1-n9gUav1FFPMQGNrH390TYvw1hSGkUCr"
-       alt="Valentín"
-       style="width:120px; height:120px; object-fit:cover; border:4px solid #fff; box-shadow:0 0 8px rgba(0,0,0,.15);">
-
   <div>
     <h2>Valentín Rodríguez Machado</h2>
     <p>
@@ -27,5 +21,6 @@
 ---
 
 ### 📬 Contacto  
-✉️ **vale.rodriguez@correo.ucu.edu.uy**  
+✉️ [vale.rodriguez@correo.ucu.edu.uy](vale.rodriguez@correo.ucu.edu.uy)
+
 🔗 [LinkedIn](https://www.linkedin.com/in/valent%C3%ADn-rodr%C3%ADguez-machado-39a315242/)
