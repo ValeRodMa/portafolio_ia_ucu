@@ -1,4 +1,4 @@
-# Portafolio de Ingeniería de IA & Ciencia de Datos
+# Portafolio de Ingeniería de IA & Ciencia de Datos: Ingeniería de Datos - 2025
 
 Este repositorio contiene mi **portafolio** del curso de Ingeniería de IA & Ciencia de Datos, construido con **MkDocs + Material** y desplegado automáticamente en GitHub Pages.
 
