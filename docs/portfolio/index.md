@@ -31,7 +31,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización de contadores:</strong> 18 de agosto de 2025
+    📅 <strong>Última actualización:</strong> 18/08/2025 - 00:15:30
   </p>
 </div>
 
