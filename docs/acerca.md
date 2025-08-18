@@ -1,11 +1,20 @@
-<div>
-  <h2>Valentín Rodríguez Machado</h2>
-  <p>
-    Soy estudiante de <strong>Ingeniería en Inteligencia Artificial y Ciencia de Datos</strong> en la 
-    <strong>Universidad Católica del Uruguay</strong>.  
-    Apasionado por el análisis de datos, la visualización de información y las aplicaciones prácticas 
-    de la IA para resolver problemas reales.
-  </p>
+<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap;">
+  <div style="flex-shrink: 0;">
+    <img src="/assets/foto-perfil.jpg" alt="Valentín Rodríguez Machado" 
+         style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; 
+                border: 4px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  </div>
+  <div style="flex: 1;">
+    <h2 style="margin-top: 0;">Valentín Rodríguez Machado</h2>
+    <p style="font-size: 1.1em; color: #666; margin-bottom: 15px;">
+      <strong>Estudiante de Ingeniería en IA & Ciencia de Datos</strong><br>
+      Universidad Católica del Uruguay
+    </p>
+    <p>
+      Apasionado por el análisis de datos, la visualización de información y las aplicaciones prácticas 
+      de la IA para resolver problemas reales.
+    </p>
+  </div>
 </div>
 
 ---
