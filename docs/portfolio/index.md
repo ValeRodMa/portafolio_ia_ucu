@@ -11,22 +11,28 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">1</div>
+  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">1</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #d4a574 0%, #deb887 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">🚧</div>
-  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">0</div>
+  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">1</div> <!--CAMBIAR ACÁ LOS EN PROGRESO-->
   <div style="font-size: 0.95em; opacity: 0.9;">En Progreso</div>
 </div>
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #7fb3d3 0%, #a2c2e0 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">💡</div>
-  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">∞</div>
+  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">∞</div> <!--CAMBIAR ACÁ LOS POR HACER-->
   <div style="font-size: 0.95em; opacity: 0.9;">Por Hacer</div>
 </div>
 
+</div>
+
+<div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
+  <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+    📅 <strong>Última actualización de contadores:</strong> 18 de agosto de 2025
+  </p>
 </div>
 
 ## 📝 Prácticos
