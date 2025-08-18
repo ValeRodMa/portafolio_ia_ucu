@@ -7,6 +7,9 @@ theme:
   features:
     - navigation.sections
     - navigation.indexes
+  custom_dir: overrides
+extra_css:
+  - assets/stylesheets/extra.css
 plugins:
   - search
   - awesome-pages

@@ -1,0 +1,45 @@
+/* Degradado oscuro y elegante para la barra superior */
+.md-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Degradado alternativo más vibrante para IA/Data */
+/* 
+.md-header {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15) !important;
+}
+*/
+
+/* Otro degradado opción - Purple to Pink */
+/*
+.md-header {
+  background: linear-gradient(135deg, #667eea 0%, #f093fb 100%) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15) !important;
+}
+*/
+
+/* Degradado tech - Dark blue to teal */
+/*
+.md-header {
+  background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15) !important;
+}
+*/
+
+/* Degradado súper elegante - Negro a azul profundo */
+/*
+.md-header {
+  background: linear-gradient(135deg, #0c0c0c 0%, #1e3c72 50%, #2a5298 100%) !important;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4) !important;
+}
+*/
+
+/* Degradado corporativo - Gris oscuro a azul */
+/*
+.md-header {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #3498db 100%) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+}
+*/
