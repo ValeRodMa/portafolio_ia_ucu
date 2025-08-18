@@ -11,7 +11,7 @@ date: 2025-01-01
     <strong>Ingeniería en Inteligencia Artificial & Ciencia de Datos</strong>
   </p>
   <p style="font-size: 1.1em; color: #888; max-width: 600px; margin: 0 auto;">
-    Bienvenido a mi portafolio académico para la materia de Ingeniería de Datos, aquí documentaré todo mi progreso, proyectos y aprendizajes.
+    Bienvenid@ a mi portafolio académico para la materia de Ingeniería de Datos, aquí documentaré todo mi progreso, proyectos y aprendizajes.
   </p>
 </div>
 
@@ -23,7 +23,7 @@ date: 2025-01-01
 
 <div style="padding: 25px; border: 2px solid #e3f2fd; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #e3f2fd 100%);">
   <h3 style="margin-top: 0; color: #1976d2;">📚 Proyectos Académicos</h3>
-  <p>Explora mis trabajos prácticos, análisis de datos y implementaciones.</p>
+  <p>Explora mis trabajos prácticos, análisis de datos e implementaciones.</p>
   <a href="portfolio/" style="color: #1976d2; font-weight: bold;">Ver Portfolio →</a>
 </div>
 
