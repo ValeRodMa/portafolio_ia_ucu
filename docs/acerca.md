@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px; flex-wrap: wrap;">
   <div style="flex-shrink: 0;">
-    <img src="/assets/foto-perfil.jpg" alt="Valentín Rodríguez Machado" 
+    <img src="assets/foto-perfil.jpg" alt="Valentín Rodríguez Machado" 
          style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; 
                 border: 4px solid #e0e0e0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   </div>
