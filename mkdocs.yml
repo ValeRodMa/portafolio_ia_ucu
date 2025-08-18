@@ -4,6 +4,7 @@ theme:
   language: es
   icon:
     logo: material/memory
+  favicon: assets/favicon.svg
   features:
     - navigation.sections
     - navigation.indexes
