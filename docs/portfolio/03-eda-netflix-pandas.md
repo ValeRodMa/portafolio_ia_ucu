@@ -25,6 +25,7 @@ El propósito de esta práctica es realizar un **análisis exploratorio completo
 
 ### Problema de Negocio
 Netflix necesita entender mejor su catálogo para tomar decisiones estratégicas sobre:
+
 - **Adquisición de contenido** por región y género
 - **Estrategias de producción** basadas en tendencias temporales
 - **Optimización del catálogo** según preferencias de audiencia
