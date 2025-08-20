@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/Users/valentin.rodriguez.machado/Library/CloudStorage/OneDrive-Personal/UCU/IA/Ingeniería de Datos/portafolio_ia_ucu/.venv312/bin/python" "$0" "$@"
+' '''
+import sys
+from nbclient.cli import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())

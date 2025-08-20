@@ -1,0 +1,8 @@
+#!/Users/valentin.rodriguez.machado/Library/CloudStorage/OneDrive-Personal/UCU/IA/Ingeniería de Datos/portafolio_ia_ucu/.venv312/bin/python
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.misc.numba_entry import main
+
+if __name__ == "__main__":
+    main()
