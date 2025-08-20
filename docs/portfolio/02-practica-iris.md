@@ -16,7 +16,7 @@ El propósito de este notebook es realizar una **exploración inicial del datase
 - Organizar los outputs en una estructura reutilizable de carpetas (`results/`).
 
 ## Requisitos y dependencias
-Este notebook se ejecuta en **Google Colab**, por lo que la mayoría de los paquetes ya están disponibles por defecto. 
+Este notebook se ejecuta en **Google Colab** ([link](https://colab.research.google.com/drive/1chwkGY58rcG1R15Nguavc-XTnVwCsA0s)), por lo que la mayoría de los paquetes ya están disponibles por defecto. 
 Sin embargo, se instala `seaborn` si no está presente.
 
 ### Librerías utilizadas
