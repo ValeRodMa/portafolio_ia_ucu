@@ -5,6 +5,8 @@ date: 2025-01-01
 
 # Entrada 01 — Mi primera experiencia
 
+{{ reading_time() }}
+
 ## Contexto
 Actividad inicial del curso.
 
@@ -23,3 +25,5 @@ Descripción breve de lo realizado.
 
 ## Reflexión
 Lo más desafiante, lo más valioso, próximos pasos.
+
+

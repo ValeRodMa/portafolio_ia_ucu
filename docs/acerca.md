@@ -15,7 +15,15 @@ Apasionado por el análisis de datos, la visualización de información y las ap
 - **Programación:** Python (pandas, NumPy, Matplotlib, scikit-learn), R, SQL, MongoDB  
 - **Visualización:** Power BI, dashboards interactivos, análisis exploratorio  
 - **Bases de datos:** modelado relacional, consultas complejas  
-- **Herramientas:** Jupyter Notebook, Google Colab, Excel avanzado  
+- **Herramientas:** Jupyter Notebook, Google Colab, Excel avanzado
+
+### 📊 Lenguajes de Programación (GitHub Stats)
+
+<div style="margin: 25px 0;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ValeRodMa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff&langs_count=8&card_width=500" 
+       alt="Lenguajes más utilizados" 
+       style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); width: 100%; max-width: 500px;">
+</div>  
 
 ---
 

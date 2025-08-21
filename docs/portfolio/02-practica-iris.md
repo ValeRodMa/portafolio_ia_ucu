@@ -3,7 +3,9 @@ title: "Práctica 1: Exploración del Dataset Iris"
 date: 2025-08-13
 ---
 
-# Práctica 1 – Análisis Exploratorio del Dataset Iris 
+# Práctica 1 – Análisis Exploratorio del Dataset Iris
+
+{{ reading_time() }} 
 
 **Autores:** Alexia Aurrecochea & Valentín Rodríguez  
 **Fecha:** 13/08/2025  
@@ -74,3 +76,5 @@ Simplemente abrí el notebook y seguí las celdas secuencialmente.
 - El formato y desarollo del README.md fue dirigido por ejemplos externos (consultar docente).
 - El enfoque está en la claridad del proceso y la organización del proyecto desde el principio.
 - Se prioriza reproducibilidad y orden para futuras prácticas más avanzadas (modelado, clasificación, etc).
+
+

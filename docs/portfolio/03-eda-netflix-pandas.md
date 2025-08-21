@@ -5,6 +5,8 @@ date: 2025-08-20
 
 # Práctica 3 – EDA Netflix Dataset con pandas
 
+{{ reading_time() }}
+
 **Autores:** G1: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López  
 **Fecha:** 20/08/2025  
 **Entorno:** Python + Pandas  
@@ -266,3 +268,5 @@ results/
 - **Escalabilidad**: Metodología aplicable a otros datasets de streaming
 - **Profesionalismo**: Siguiendo estándares de la industria para EDA
 - **Aprendizaje**: Balanceando exploración guiada con descubrimiento independiente
+
+
