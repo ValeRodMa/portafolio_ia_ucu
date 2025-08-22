@@ -37,7 +37,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 ## 📝 Prácticos
 
-1. **[Primera Entrada](01-primera-entrada.md)** - Proyecto inicial de familiarización
+1. **[Entrada de Familiarización](01-primera-entrada.md)** - Proyecto inicial
 2. **[Práctica 1: Exploración del Dataset Iris](02-practica-iris.md)** - Análisis exploratorio con Python y Seaborn
 3. **[Práctica 3: EDA Netflix Dataset con pandas](03-eda-netflix-pandas.md)** - Análisis completo con visualizaciones avanzadas y profiling automático
 
