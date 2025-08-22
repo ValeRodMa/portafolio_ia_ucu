@@ -1,9 +1,9 @@
 ---
-title: "Práctica 3: EDA Netflix Dataset con pandas"
+title: "Práctica 3: EDA Netflix Dataset con Pandas"
 date: 2025-08-20
 ---
 
-# Práctica 3 – EDA Netflix Dataset con pandas
+# Práctica 3 – EDA Netflix Dataset con Pandas
 
 {{ reading_time() }}
 
@@ -133,7 +133,7 @@ Creación de un dashboard completo que incluye:
 
 ## 🚀 BONUS: Profiling Automático con ydata-profiling
 
-### 🤖 EDA Automático con ydata-profiling
+### EDA Automático con ydata-profiling
 
 Implementación de análisis automático usando `ydata-profiling` para:
 
