@@ -207,7 +207,7 @@ El pipeline desarrollado está preparado para:
 
 ## 🔗 Enlaces y Referencias
 
-- **Notebook completo**: [Práctica 4 - Jupyter Notebook](../assets/Practica_4_EDA_Multi_fuentes_y_Joins.ipynb)
+- **Notebook completo**: [Práctica 4 - Jupyter Notebook](../assets/Practica_4_EDA_Multi_fuentes_y_Joins_Fill_in_the_Blanks.ipynb)
 - **Documentación oficial**: [NYC Taxi Data User Guide](https://www.nyc.gov/assets/tlc/downloads/pdf/trip_record_data_user_guide.pdf)
 - **Prefect Documentation**: [Getting Started with Prefect](https://docs.prefect.io/v3/concepts/flows/)
 - **Material del curso**: [EDA Multi-fuentes y Joins](https://juanfkurucz.com/ucu-id/ut1/04-eda-multifuentes-joins/)
