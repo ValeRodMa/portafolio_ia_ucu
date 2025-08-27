@@ -1,6 +1,6 @@
 ---
 title: "Práctica 2: Publicación del Portfolio en GitHub Pages"
-date: 2025-08-20
+date: 2025-08-13
 ---
 
 # Práctica 2: Publicación del Portfolio en GitHub Pages

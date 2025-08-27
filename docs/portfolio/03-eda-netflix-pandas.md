@@ -7,10 +7,10 @@ date: 2025-08-20
 
 {{ reading_time() }}
 
-**Autores:** G1: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López  
-**Fecha:** 20/08/2025  
-**Entorno:** Python + Pandas  
-**Referencia:** [Tarea 3: EDA Netflix con Visualizaciones](https://juanfkurucz.com/ucu-id/ut1/03-eda-netflix-pandas/)
+- **Autores [G1]:** Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López  
+- **Fecha:** 20/08/2025  
+- **Entorno:** Python + Pandas  
+- **Referencia:** [Tarea 3: EDA Netflix con Visualizaciones](https://juanfkurucz.com/ucu-id/ut1/03-eda-netflix-pandas/)
 
 ## 🎯 Objetivos
 
@@ -27,7 +27,6 @@ El propósito de esta práctica es realizar un **análisis exploratorio completo
 
 ### Problema de Negocio
 Netflix necesita entender mejor su catálogo para tomar decisiones estratégicas sobre:
-
 - **Adquisición de contenido** por región y género
 - **Estrategias de producción** basadas en tendencias temporales
 - **Optimización del catálogo** según preferencias de audiencia
