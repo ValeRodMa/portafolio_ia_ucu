@@ -16,6 +16,8 @@ date: 2025-08-27
 
 *Este proyecto demuestra la integración exitosa de múltiples fuentes de datos a escala metropolitana, combinando análisis exploratorio avanzado con automatización robusta para generar insights empresariales accionables.*
 
+📓 **[Descargar Notebook Completo](../assets/Practica_4_EDA_Multi_fuentes_y_Joins_Fill_in_the_Blanks.ipynb)** - Jupyter Notebook con todo el código y análisis
+
 ---
 
 ## 🎯 Objetivos y Alcance
