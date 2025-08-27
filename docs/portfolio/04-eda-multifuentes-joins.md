@@ -209,7 +209,7 @@ El pipeline desarrollado está preparado para:
 
 ## 🔗 Enlaces y Referencias
 
-- **Notebook completo**: [Práctica 4 - Jupyter Notebook](../assets/Practica_4_EDA_Multi_fuentes_y_Joins_Fill_in_the_Blanks.ipynb)
-- **Documentación oficial**: [NYC Taxi Data User Guide](https://www.nyc.gov/assets/tlc/downloads/pdf/trip_record_data_user_guide.pdf)
-- **Prefect Documentation**: [Getting Started with Prefect](https://docs.prefect.io/v3/concepts/flows/)
+- **NYC TLC Trip Record Data**: [Datos oficiales de NYC Taxi & Limousine Commission](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- **Data Dictionary Yellow Taxi**: [Diccionario de datos oficial Yellow Taxi](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
+- **Pandas Merge Documentation**: [Documentación oficial de pandas.merge()](https://pandas.pydata.org/docs/reference/api/pandas.merge.html)
 - **Material del curso**: [EDA Multi-fuentes y Joins](https://juanfkurucz.com/ucu-id/ut1/04-eda-multifuentes-joins/)
