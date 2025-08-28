@@ -1,6 +1,5 @@
 ---
 title: "Portfolio"
-date: 2025-01-01
 ---
 
 # 📚 Portfolio
@@ -37,6 +36,8 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 ## 📝 Prácticos
 
+### **UT1: EDA & Fuentes**
+
 <ol start="0">
 <li><strong><a href="00-entrada-familiarizacion/">Entrada de Familiarización</a></strong> - Proyecto inicial</li>
 <li><strong><a href="01-practica-iris/">Práctica 1: Exploración del Dataset Iris</a></strong> - Análisis exploratorio con Python y Seaborn</li>
@@ -44,6 +45,9 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 <li><strong><a href="03-eda-netflix-pandas/">Práctica 3: EDA Netflix Dataset con pandas</a></strong> - Análisis completo con visualizaciones avanzadas y profiling automático</li>
 <li><strong><a href="04-eda-multifuentes-joins/">Práctica 4: EDA Multi-fuentes y Joins</a></strong> - Pipeline con Prefect, integración de datasets NYC Taxi + análisis empresarial</li>
 </ol>
+
+### **UT2: Calidad & Ética**
+
 
 ---
 
