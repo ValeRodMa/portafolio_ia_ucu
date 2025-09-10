@@ -7,9 +7,9 @@ date: 2025-08-13
 
 {{ reading_time() }} 
 
-**Autores:** Alexia Aurrecochea & Valentín Rodríguez  
-**Fecha:** 13/08/2025  
-**Entorno:** Google Colab + Python 3
+- **Autores:** Alexia Aurrecochea & Valentín Rodríguez  
+- **Fecha:** 13/08/2025  
+- **Entorno:** Google Colab + Python 3
 
 ## Objetivo
 El propósito de este notebook es realizar una **exploración inicial del dataset Iris**, disponible públicamente en el [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/53/iris). A través del uso de herramientas de visualización, manipulación y descripción estadística, se busca:

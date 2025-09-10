@@ -1,6 +1,5 @@
 ---
 title: "Inicio"
-date: 2025-01-01
 ---
 
 <div style="text-align: center; margin: 40px 0;">
