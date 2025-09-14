@@ -7,7 +7,7 @@ date: 2025-08-13
 
 {{ reading_time() }} 
 
-- **Autores:** Alexia Aurrecochea & Valentín Rodríguez  
+- **Autores:** Alexia Aurrecochea, Nahuel Lopez y Valentín Rodríguez  
 - **Fecha:** 13/08/2025  
 - **Entorno:** Google Colab + Python 3
 
