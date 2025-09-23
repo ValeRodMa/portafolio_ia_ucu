@@ -10,7 +10,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">6</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
+  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">7</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 10/09/2025 - 17:09:17 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 23/09/2025 - 19:30:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -50,6 +50,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <ol start="5">
 <li><strong><a href="05-missing-data-detective/">Práctica 5: Missing Data Detective</a></strong> - Detección y tratamiento de datos faltantes con análisis ético</li>
+<li><strong><a href="06-feature-scaling-anti-leakage-pipeline/">Práctica 6: Feature Scaling & Anti-Leakage Pipeline</a></strong> - Transformaciones avanzadas y prevención de data leakage con dataset Ames Housing</li>
 </ol>
 
 
