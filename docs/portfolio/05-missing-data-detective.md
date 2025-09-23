@@ -1,9 +1,6 @@
 # Práctica 5: Missing Data Detective - Detección y Tratamiento de Datos Faltantes
-
 {{ reading_time() }}
-
 ---
-
 ## 📋 **Metadatos del Proyecto**
 
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
