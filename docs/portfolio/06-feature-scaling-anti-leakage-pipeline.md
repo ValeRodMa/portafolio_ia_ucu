@@ -44,7 +44,7 @@ Esta práctica se enfoca en uno de los aspectos más críticos del preprocessing
 **Acceso al notebook completo:** [Práctica 6 - Feature Scaling & Anti-Leakage Pipeline](../assets/Practica_6_Feature_Scaling_Anti-Leakage_Pipeline.ipynb)
 
 
-### Análisis de Escalas Problemáticas
+### Análisis de Algunas Escalas Problemáticas
 
 | Variable | Rango (min–max) | Ratio | ¿Problemática? |
 |----------|-----------------|-------|----------------|
@@ -203,5 +203,80 @@ Esta práctica consolidó conceptos fundamentales sobre:
 
 - La importancia de **Pipeline** para workflows reproducibles y robustos
 
+## 🎁 Bonus
+
+En esta sección adicional, exploramos técnicas avanzadas de feature engineering y análisis comparativo más profundo de las transformaciones. Se implementan visualizaciones detalladas que muestran el impacto específico de cada transformador en las distribuciones de datos, análisis de correlaciones antes y después de las transformaciones, y comparaciones lado a lado de múltiples técnicas de escalado.
+
+**Descarga el notebook completo del bonus:** [Práctica 6 Bonus - Análisis Avanzado](../assets/Practica6Bonus.ipynb)
+
+### Análisis Exhaustivo de Distribuciones: Se analizan todos los atributos.
+
+![Distribuciones Completas del Dataset](../assets/distributions-complete.png)
+*Histogramas de todas las variables numéricas del dataset Ames Housing mostrando la diversidad de formas y escalas presentes en los datos originales.*
+
+### Distribuciones Normalizadas por Variable
+
+![Distribuciones Individuales](../assets/distributions-individual.png)
+*Análisis detallado de las distribuciones de variables clave, destacando patrones de asimetría, multimodalidad y presencia de valores extremos.*
+
+### Análisis Completo de Outliers por Boxplots
+
+![Boxplots Exhaustivos](../assets/boxplots-complete.png)
+*Visualización completa mediante boxplots de todas las variables numéricas, revelando la extensión y naturaleza de los valores atípicos en cada feature.*
+
+### Comparación Detallada de Boxplots
+
+![Boxplots por Variable](../assets/boxplots-detailed.png)
+*Análisis individualizado de boxplots para cada variable, permitiendo identificar patrones específicos de outliers y rangos intercuartílicos.*
+
+
+### 📑 Reporte de Transformaciones Numéricas
+
+| Variable                | Transformación | Notas / Justificación |
+|--------------------------|----------------|------------------------|
+| **Order**               | Drop           | ID / índice, sin valor analítico |
+| **PID**                 | Drop           | Identificador único |
+| **MS SubClass**         | none / categ.  | Mejor tratar como categórica (clase de vivienda) |
+| **Lot Frontage**        | log1p          | Positivos, cola larga, valores atípicos |
+| **Lot Area**            | log1p          | Distribución muy sesgada a derecha |
+| **Overall Qual**        | minmax         | Escala ordinal 1–10 |
+| **Overall Cond**        | minmax         | Escala ordinal 1–9 |
+| **Year Built**          | → HouseAge std | Convertido a edad (Yr Sold - Built), escalado estándar |
+| **Year Remod/Add**      | → RemodAge std | Convertido a edad de remodelación, escalado estándar |
+| **BsmtFin SF 1**        | log1p          | Sesgo fuerte, valores extremos |
+| **BsmtFin SF 2**        | log1p          | Muchos ceros, sesgo a derecha |
+| **Bsmt Unf SF**         | log1p          | Sesgo fuerte, gran dispersión |
+| **Total Bsmt SF**       | log1p          | Colas largas, magnitudes muy grandes |
+| **1st Flr SF**          | log1p          | Sesgo fuerte, outliers |
+| **2nd Flr SF**          | log1p          | Sesgo fuerte, muchos ceros |
+| **Low Qual Fin SF**     | log1p + gt0    | Cero-inflada, indicador + transformación |
+| **Gr Liv Area**         | log1p          | Muy sesgada, valores grandes |
+| **Bsmt Full Bath**      | none           | Valores pequeños enteros, discreta |
+| **Bsmt Half Bath**      | none           | Muy pocos valores distintos, discreta |
+| **Full Bath**           | minmax         | Ordinal con pocos valores enteros |
+| **Half Bath**           | minmax         | Ordinal con pocos valores enteros |
+| **Bedroom AbvGr**       | minmax         | Ordinal discreta |
+| **Kitchen AbvGr**       | minmax         | Muy pocos valores distintos (casi constante) |
+| **TotRms AbvGrd**       | robust         | Simétrica con outliers, robust scaler adecuado |
+| **Fireplaces**          | minmax         | Discreta con rango pequeño |
+| **Garage Yr Blt**       | → GarageAge std| Convertido a edad, estandarizado |
+| **Garage Cars**         | minmax         | Discreta, 0–4 autos |
+| **Garage Area**         | log1p          | Sesgada a derecha |
+| **Wood Deck SF**        | log1p + gt0    | Cero-inflada |
+| **Open Porch SF**       | log1p + gt0    | Cero-inflada |
+| **Enclosed Porch**      | log1p + gt0    | Cero-inflada |
+| **3Ssn Porch**          | log1p + gt0    | Cero-inflada |
+| **Screen Porch**        | log1p + gt0    | Cero-inflada |
+| **Pool Area**           | log1p + gt0    | Cero-inflada |
+| **Misc Val**            | log1p + gt0    | Mayormente ceros, pocos valores grandes |
+| **Mo Sold**             | minmax         | Mes (1–12), ordinal circular |
+| **Yr Sold**             | standard       | Año de venta, centrado y escalado |
+| **SalePrice (target)**  | log1p          | Muy sesgado, transformación clásica en Kaggle |
+
+---
+
+📌 **Indicadores `*_gt0`**: columnas adicionales que marcan la **presencia (>0)** en variables cero-infladas, para complementar el valor transformado.  
+
+📌 **Años**: `Year Built`, `Year Remod/Add`, `Garage Yr Blt` se convirtieron en **edades relativas a `Yr Sold`**, lo que tiene más sentido analítico.  
 
 ---
