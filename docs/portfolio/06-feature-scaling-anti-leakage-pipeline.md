@@ -1,4 +1,4 @@
-# Práctica 6: Feature Scaling & Anti-Leakage Pipeline
+# Transformando datos inmobiliarios: pipeline anti-leakage para predicciones justas
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)

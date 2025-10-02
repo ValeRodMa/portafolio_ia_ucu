@@ -1,9 +1,9 @@
 ---
-title: "Práctica 2: Publicación del Portfolio en GitHub Pages"
+title: "Desplegando mi Portfolio: de código local a GitHub Pages con MkDocs"
 date: 2025-08-13
 ---
 
-# Práctica 2: Publicación del Portfolio en GitHub Pages
+# Desplegando mi Portfolio: de código local a GitHub Pages con MkDocs
 
 {{ reading_time() }}
 

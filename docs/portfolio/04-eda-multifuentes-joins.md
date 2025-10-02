@@ -1,9 +1,9 @@
 ---
-title: "Práctica 4: EDA Multi-fuentes y Joins - Pipeline con Prefect"
+title: "Integrando datos metropolitanos: pipeline automatizado con 3M+ viajes de taxi de NYC"
 date: 2025-08-27
 ---
 
-# Práctica 4: EDA Multi-fuentes y Joins - Pipeline con Prefect
+# Integrando datos metropolitanos: pipeline automatizado con 3M+ viajes de taxi de NYC
 
 {{ reading_time() }}
 

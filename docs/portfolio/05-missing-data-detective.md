@@ -1,4 +1,4 @@
-# Práctica 5: Missing Data Detective - Detección y Tratamiento de Datos Faltantes
+# Detectando el misterio de los datos faltantes: análisis forense del dataset Ames Housing
 {{ reading_time() }}
 ---
 ## 📋 **Metadatos del Proyecto**

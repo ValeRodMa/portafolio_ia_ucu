@@ -40,18 +40,18 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <ol start="0">
 <li><strong><a href="00-entrada-familiarizacion/">Entrada de Familiarización</a></strong> - Proyecto inicial</li>
-<li><strong><a href="01-practica-iris/">Práctica 1: Exploración del Dataset Iris</a></strong> - Análisis exploratorio con Python y Seaborn</li>
-<li><strong><a href="02-publicacion-portfolio-githubpages/">Práctica 2: Publicación del Portfolio en GitHub Pages</a></strong> - Guía completa de configuración y despliegue</li>
-<li><strong><a href="03-eda-netflix-pandas/">Práctica 3: EDA Netflix Dataset con pandas</a></strong> - Análisis completo con visualizaciones avanzadas y profiling automático</li>
-<li><strong><a href="04-eda-multifuentes-joins/">Práctica 4: EDA Multi-fuentes y Joins</a></strong> - Pipeline con Prefect, integración de datasets NYC Taxi + análisis empresarial</li>
+<li><strong><a href="01-practica-iris/">Exploración inicial del Dataset Iris: descubriendo patrones morfológicos entre especies con Pandas</a></strong> - Análisis exploratorio con Python y Seaborn</li>
+<li><strong><a href="02-publicacion-portfolio-githubpages/">Desplegando mi Portfolio: de código local a GitHub Pages con MkDocs</a></strong> - Guía completa de configuración y despliegue</li>
+<li><strong><a href="03-eda-netflix-pandas/">Descifrando el catálogo de Netflix: análisis exploratorio de tendencias de contenido global</a></strong> - Análisis completo con visualizaciones avanzadas y profiling automático</li>
+<li><strong><a href="04-eda-multifuentes-joins/">Integrando datos metropolitanos: pipeline automatizado con 3M+ viajes de taxi de NYC</a></strong> - Pipeline con Prefect, integración de datasets NYC Taxi + análisis empresarial</li>
 </ol>
 
 ### **UT2: Calidad & Ética**
 
 <ol start="5">
-<li><strong><a href="05-missing-data-detective/">Práctica 5: Missing Data Detective</a></strong> - Detección y tratamiento de datos faltantes con análisis ético</li>
-<li><strong><a href="06-feature-scaling-anti-leakage-pipeline/">Práctica 6: Feature Scaling & Anti-Leakage Pipeline</a></strong> - Transformaciones avanzadas y prevención de data leakage con dataset Ames Housing</li>
-<li><strong><a href="07-bias-detection-fairlearn/">Práctica 7: Detectar y Corregir Sesgo con Fairlearn</a></strong> - Framework ético para detección y corrección de sesgo en modelos de ML</li>
+<li><strong><a href="05-missing-data-detective/">Detectando el misterio de los datos faltantes: análisis forense del dataset Ames Housing</a></strong> - Detección y tratamiento de datos faltantes con análisis ético</li>
+<li><strong><a href="06-feature-scaling-anti-leakage-pipeline/">Transformando datos inmobiliarios: pipeline anti-leakage para predicciones justas</a></strong> - Transformaciones avanzadas y prevención de data leakage con dataset Ames Housing</li>
+<li><strong><a href="07-bias-detection-fairlearn/">Desenmascarando sesgos algorítmicos: análisis ético con Fairlearn en datasets históricos</a></strong> - Framework ético para detección y corrección de sesgo en modelos de ML</li>
 </ol>
 
 

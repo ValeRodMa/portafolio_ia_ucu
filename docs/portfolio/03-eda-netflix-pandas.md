@@ -1,9 +1,9 @@
 ---
-title: "Práctica 3: EDA Netflix Dataset con Pandas"
+title: "Descifrando el catálogo de Netflix: análisis exploratorio de tendencias de contenido global"
 date: 2025-08-20
 ---
 
-# Práctica 3 – EDA Netflix Dataset con Pandas
+# Descifrando el catálogo de Netflix: análisis exploratorio de tendencias de contenido global
 
 {{ reading_time() }}
 

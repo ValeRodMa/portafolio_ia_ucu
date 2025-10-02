@@ -1,4 +1,4 @@
-# Práctica 7: Detectar y Corregir Sesgo con Fairlearn
+# Desenmascarando sesgos algorítmicos: análisis ético con Fairlearn en datasets históricos
 {{ reading_time() }}
 ---
 - **Notebook completo**: [Práctica7.ipynb](../assets/Práctica7.ipynb)
