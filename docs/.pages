@@ -3,12 +3,10 @@ nav:
   - Acerca de Mí: acerca.md
   - Portfolio: portfolio/
   - Diversidad de Datos: diversidad-datos/
-  - Dashboard: dashboard.md
   - Recursos: recursos.md
 arrange:
   - index.md
   - acerca.md
   - portfolio
   - diversidad-datos
-  - dashboard.md
   - recursos.md
