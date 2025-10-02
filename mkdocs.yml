@@ -1,4 +1,5 @@
 site_name: "Portfolio: Ing. en 🤖🧠 y 📈📊"
+
 theme:
   name: material
   language: es
@@ -10,9 +11,11 @@ theme:
     - navigation.indexes
   custom_dir: overrides
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/gallery.css
+  - assets/stylesheets/dashboard.css
 extra_javascript:
-  - assets/javascripts/extra.js
+  - assets/javascripts/gallery.js
+  - assets/javascripts/dashboard.js
 plugins:
   - search
   - awesome-pages
