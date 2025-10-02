@@ -38,6 +38,12 @@ title: "Inicio"
   <a href="recursos/" style="color: #f57c00; font-weight: bold;">Explorar →</a>
 </div>
 
+<div style="padding: 25px; border: 2px solid #f3e5f5; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #f3e5f5 100%);">
+  <h3 style="margin-top: 0; color: #7b1fa2;">🌍 Diversidad de Datos</h3>
+  <p>Aplicando metodologías aprendidas a nuevos datasets: de Iris a vinos, de Netflix a criptomonedas, explorando diferentes dominios.</p>
+  <a href="diversidad-datos/" style="color: #7b1fa2; font-weight: bold;">Descubrir →</a>
+</div>
+
 </div>
 
 ---
