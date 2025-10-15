@@ -32,11 +32,17 @@ title: "Inicio"
   <a href="acerca/" style="color: #388e3c; font-weight: bold;">Conocer más →</a>
 </div>
 
-<div style="padding: 25px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);">
-  <h3 style="margin-top: 0; color: #f57c00;">🛠️ Recursos</h3>
-  <p>Herramientas, librerías y recursos útiles que utilizo en mis proyectos de IA y análisis de datos.</p>
-  <a href="recursos/" style="color: #f57c00; font-weight: bold;">Explorar →</a>
-</div>
+    <div style="padding: 25px; border: 2px solid #e8eaf6; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #e8eaf6 100%);">
+      <h3 style="margin-top: 0; color: #673ab7;">🔬 Exploraciones Extra</h3>
+      <p>Investigaciones adicionales con datasets alternativos.</p>
+      <a href="exploraciones-extra/" style="color: #673ab7; font-weight: bold;">Explorar →</a>
+    </div>
+
+    <div style="padding: 25px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);">
+      <h3 style="margin-top: 0; color: #f57c00;">🛠️ Recursos</h3>
+      <p>Herramientas, librerías y recursos útiles que utilizo en mis proyectos de IA y análisis de datos.</p>
+      <a href="recursos/" style="color: #f57c00; font-weight: bold;">Explorar →</a>
+    </div>
 
 </div>
 
