@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 27/01/2025 - 14:30:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 15/10/2025 - 11:30:26 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -57,8 +57,8 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 ### **UT3: Feature Engineering**
 
 <ol start="8">
-<li><strong><a href="08-feature-importance-analysis/">Análisis de importancia de features: explorando distribuciones y selección de variables</a></strong> - Comparación de metodologías (Mutual Information vs Random Forest) para selección de variables (G1)</li>
-<li><strong><a href="09-encoding-avanzado-target-encoding/">Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad</a></strong> - Análisis comparativo de Label, One-Hot, Target Encoding y técnicas avanzadas con dataset Adult Income (G1)</li>
+<li><strong><a href="08-feature-importance-analysis/">Análisis de importancia de features: explorando distribuciones y selección de variables</a></strong> - Comparación de metodologías (Mutual Information vs Random Forest) para selección de variables.</li>
+<li><strong><a href="09-encoding-avanzado-target-encoding/">Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad</a></strong> - Análisis comparativo de Label, One-Hot, Target Encoding y técnicas avanzadas con dataset Adult Income.</li>
 </ol>
 
 
