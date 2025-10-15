@@ -8,13 +8,13 @@ Esta sección presenta **exploraciones adicionales** con datasets alternativos.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="padding: 20px; background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2.5em; color: #4caf50; margin-bottom: 5px;">2</div>
+  <div style="font-size: 2.5em; color: #4caf50; margin-bottom: 5px;">3</div>
   <div style="font-size: 1.1em; color: #2e7d32; font-weight: bold;">Exploraciones</div>
   <div style="font-size: 0.9em; color: #666;">Completadas</div>
   </div>
   
   <div style="padding: 20px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    <div style="font-size: 2.5em; color: #ff9800; margin-bottom: 5px;">6</div>
+    <div style="font-size: 2.5em; color: #ff9800; margin-bottom: 5px;">11</div>
     <div style="font-size: 1.1em; color: #f57c00; font-weight: bold;">Visualizaciones</div>
     <div style="font-size: 0.9em; color: #666;">Generadas</div>
   </div>
@@ -35,4 +35,10 @@ Esta sección presenta **exploraciones adicionales** con datasets alternativos.
 **Dataset**: California Housing (Scikit-learn) - 20,640 muestras de viviendas en California (1990) con 8 variables inmobiliarias. Incluye ingreso mediano, edad de viviendas, número de habitaciones, población y ubicación geográfica.
 
 **Enfoque**: Análisis forense de datos faltantes y outliers aplicando técnicas de calidad de datos con consideraciones éticas. Se comenzó a utilizar el dataset de Boston Housing, pero a mitad del análisis se encontró documentación que incluía problemas éticos en dicho dataset (asunciones sobre segregación racial).
+
+### **🏥 [Feature Scaling & Anti-Leakage Pipeline - Heart Disease](06b-feature-scaling-heart-disease/)**
+
+**Dataset**: Heart Disease (UCI ML Repository) - 297 registros de pacientes con 13 variables médicas. Incluye edad, colesterol, presión arterial, frecuencia cardíaca y otros indicadores médicos para predicción de enfermedad cardíaca.
+
+**Enfoque**: Replicación del proyecto de Feature Scaling aplicando técnicas de escalado (StandardScaler, MinMaxScaler, RobustScaler) y experimento crítico de data leakage con datos médicos reales.
 
