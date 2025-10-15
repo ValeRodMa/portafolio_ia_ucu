@@ -13,9 +13,11 @@ theme:
 extra_css:
   - assets/stylesheets/gallery.css
   - assets/stylesheets/dashboard.css
+  - assets/stylesheets/extra.css
 extra_javascript:
   - assets/javascripts/gallery.js
   - assets/javascripts/dashboard.js
+  - assets/javascripts/extra.js
 plugins:
   - search
   - awesome-pages

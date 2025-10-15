@@ -10,7 +10,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">8</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
+  <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">9</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
@@ -52,6 +52,12 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 <li><strong><a href="05-missing-data-detective/">Detectando el misterio de los datos faltantes: análisis forense del dataset Ames Housing</a></strong> - Detección y tratamiento de datos faltantes con análisis ético</li>
 <li><strong><a href="06-feature-scaling-anti-leakage-pipeline/">Transformando datos inmobiliarios: pipeline anti-leakage para predicciones justas</a></strong> - Transformaciones avanzadas y prevención de data leakage con dataset Ames Housing</li>
 <li><strong><a href="07-bias-detection-fairlearn/">Desenmascarando sesgos algorítmicos: análisis ético con Fairlearn en datasets históricos</a></strong> - Framework ético para detección y corrección de sesgo en modelos de ML</li>
+</ol>
+
+### **UT3: Feature Engineering**
+
+<ol start="8">
+<li><strong><a href="08-feature-importance-analysis/">Análisis de importancia de features: explorando distribuciones y selección de variables</a></strong> - Comparación de metodologías (Mutual Information vs Random Forest) para selección de variables (G1)</li>
 </ol>
 
 
