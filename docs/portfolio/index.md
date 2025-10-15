@@ -10,7 +10,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">9</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
+              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">10</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 14/10/2025 - 23:56:16 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 27/01/2025 - 14:30:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -58,6 +58,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <ol start="8">
 <li><strong><a href="08-feature-importance-analysis/">Análisis de importancia de features: explorando distribuciones y selección de variables</a></strong> - Comparación de metodologías (Mutual Information vs Random Forest) para selección de variables (G1)</li>
+<li><strong><a href="09-encoding-avanzado-target-encoding/">Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad</a></strong> - Análisis comparativo de Label, One-Hot, Target Encoding y técnicas avanzadas con dataset Adult Income (G1)</li>
 </ol>
 
 
