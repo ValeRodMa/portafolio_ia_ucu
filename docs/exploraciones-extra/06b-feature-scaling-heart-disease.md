@@ -1,4 +1,5 @@
 # 06B: Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset
+{{ reading_time() }}
 
 - **Autor:** Valentín Rodríguez
 - **Fecha:** Octubre 2025
