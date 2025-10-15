@@ -29,7 +29,7 @@
 
 ---
 
-**Acceso al notebook completo:** [📥 Descargar Práctica 6B Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset](https://github.com/ValeRodMa/portafolio_ia_ucu/raw/main/docs/assets/Practica06B_Heart_Disease_Feature_Scaling.ipynb)
+**Acceso al notebook completo:** [📥 Descargar Práctica 6B Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset](https://raw.githubusercontent.com/ValeRodMa/portafolio_ia_ucu/main/docs/assets/Practica06B_Heart_Disease_Feature_Scaling.ipynb)
 
 ---
 
