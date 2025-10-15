@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 27/09/2025 - 19:25:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 14/10/2025 - 23:56:16 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
