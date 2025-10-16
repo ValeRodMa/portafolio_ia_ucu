@@ -309,9 +309,13 @@ X_test_binary = binary_encoder.transform(X_test)
 ### 📊 Análisis de Trade-Offs
 
 **Accuracy vs Dimensionalidad:**
+
 - **Label Encoding**: 86.10% accuracy con 14 features
+
 - **Target Encoding**: 80.29% accuracy con 6 features  
+
 - **One-Hot**: 84.71% accuracy con 30 features
+
 
 **Insights:**
 
