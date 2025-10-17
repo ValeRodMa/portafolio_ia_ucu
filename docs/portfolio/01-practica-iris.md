@@ -28,7 +28,7 @@ A través de este análisis, nos embarcamos en un viaje de descubrimiento que in
 
 - **Desentrañar los secretos morfológicos** de cada especie de Iris
 - **Revelar las relaciones ocultas** entre diferentes medidas corporales
-- **Identificar las características más distintivas** que separan las especies
+- **Identificar las características más distintivas** que separan las especies 
 - **Crear visualizaciones que cuenten la historia** de los datos
 - **Establecer una metodología robusta** para futuros análisis similares
 
