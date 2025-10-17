@@ -3,9 +3,9 @@ site_name: "Portfolio: Ing. en 🤖🧠 y 📈📊"
 nav:
   - Inicio: index.md
   - Acerca de Mí: acerca.md
-  - Portfolio: portfolio/
-  - Exploraciones Extra: exploraciones-extra/
-  - Galería Visual: galeria/
+  - Portfolio: portfolio/index.md
+  - Exploraciones Extra: exploraciones-extra/index.md
+  - Galería Visual: galeria/index.md
   - Recursos: recursos.md
 
 theme:
