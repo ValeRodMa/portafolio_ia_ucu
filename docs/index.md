@@ -38,6 +38,12 @@ title: "Inicio"
       <a href="exploraciones-extra/" style="color: #673ab7; font-weight: bold;">Explorar →</a>
     </div>
 
+    <div style="padding: 25px; border: 2px solid #fce4ec; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fce4ec 100%);">
+      <h3 style="margin-top: 0; color: #c2185b;">🎨 Galería Visual</h3>
+      <p>Colección completa de todas mis visualizaciones y gráficas de análisis de datos.</p>
+      <a href="galeria/" style="color: #c2185b; font-weight: bold;">Ver Galería →</a>
+    </div>
+
     <div style="padding: 25px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);">
       <h3 style="margin-top: 0; color: #f57c00;">🛠️ Recursos</h3>
       <p>Herramientas, librerías y recursos útiles que utilizo en mis proyectos de IA y análisis de datos.</p>
