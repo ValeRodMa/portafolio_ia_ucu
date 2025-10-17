@@ -44,12 +44,14 @@ title: "Inicio"
       <a href="galeria/" style="color: #c2185b; font-weight: bold;">Ver Galería →</a>
     </div>
 
-    <div style="padding: 25px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);">
-      <h3 style="margin-top: 0; color: #f57c00;">🛠️ Recursos</h3>
-      <p>Herramientas, librerías y recursos útiles que utilizo en mis proyectos de IA y análisis de datos.</p>
-      <a href="recursos/" style="color: #f57c00; font-weight: bold;">Explorar →</a>
-    </div>
+</div>
 
+<div style="padding: 30px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%); margin: 25px 0;">
+  <h3 style="margin-top: 0; color: #f57c00; text-align: center; font-size: 1.8em;">🛠️ Recursos</h3>
+  <p style="text-align: center; font-size: 1.1em; margin-bottom: 20px;">Herramientas, librerías y recursos útiles que utilizo en mis proyectos de IA y análisis de datos.</p>
+  <div style="text-align: center;">
+    <a href="recursos/" style="color: #f57c00; font-weight: bold; font-size: 1.1em;">Explorar Recursos →</a>
+  </div>
 </div>
 
 ---
