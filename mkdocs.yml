@@ -1,5 +1,13 @@
 site_name: "Portfolio: Ing. en 🤖🧠 y 📈📊"
 
+nav:
+  - Inicio: index.md
+  - Acerca de Mí: acerca.md
+  - Portfolio: portfolio/
+  - Exploraciones Extra: exploraciones-extra/
+  - Galería Visual: galeria/
+  - Recursos: recursos.md
+
 theme:
   name: material
   language: es
