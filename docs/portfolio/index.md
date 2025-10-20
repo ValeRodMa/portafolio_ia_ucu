@@ -64,8 +64,12 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 ---
 
-## 🛠️ Recursos
+## 🛠️ Herramientas del Portfolio
 
 - **[Plantilla](plantilla.md)** - Estructura base para nuevas entradas
 - **Formato**: Usa nombres numerados (`01-titulo.md`, `02-titulo.md`, etc.)
+
+---
+
+> 💡 **Para recursos de aprendizaje completos, visita la sección [📂 Recursos útiles](/recursos/)**
 
