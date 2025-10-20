@@ -71,5 +71,5 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 ---
 
-> 💡 **Para recursos de aprendizaje completos, visita la sección [📂 Recursos útiles](/recursos/)**
+> 💡 **Para recursos de aprendizaje completos, visita la sección [📂 Recursos útiles](../recursos/)**
 
