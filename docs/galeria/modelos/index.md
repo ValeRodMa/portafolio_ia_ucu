@@ -1,5 +1,4 @@
 # 🎯 Modelos y Evaluación
-{{ reading_time() }}
 ---
 
 ## 📊 Visualizaciones de Modelos y Evaluación

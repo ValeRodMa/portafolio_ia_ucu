@@ -1,5 +1,4 @@
 # 🔍 Análisis Exploratorio de Datos (EDA)
-{{ reading_time() }}
 ---
 
 ## 📊 Visualizaciones de EDA

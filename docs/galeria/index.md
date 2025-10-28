@@ -53,7 +53,7 @@
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="padding: 20px; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">58</div>
+    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">65</div>
     <div style="font-size: 1.1em; color: #ad1457; font-weight: bold;">Gráficas</div>
     <div style="font-size: 0.9em; color: #666;">Generadas</div>
   </div>

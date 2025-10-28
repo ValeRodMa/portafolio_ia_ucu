@@ -1,5 +1,4 @@
 # ⚙️ Feature Engineering
-{{ reading_time() }}
 ---
 
 ## 📊 Visualizaciones de Feature Engineering
@@ -59,6 +58,31 @@
 
 ![Comparación de Importancia por Método](../../assets/comparacion_importancia_por_metodo.png)
 *Mutual Information vs Random Forest*
+
+---
+
+### **📐 PCA y Análisis de Componentes Principales**
+
+![Scree Plot y Varianza Acumulada](../../assets/ames-pca-scree-plot.png)
+*Análisis de varianza explicada por componentes*
+
+![Loadings Plot PC1 vs PC2](../../assets/ames-pca-loadings-plot.png)
+*Loadings de las dos primeras componentes principales*
+
+![Proyección PC1 vs PC2](../../assets/ames-pca-projection.png)
+*Distribución de datos en el espacio reducido*
+
+![Feature Importance desde PCA](../../assets/ames-pca-feature-importance.png)
+*Top 20 features por importancia en PCA*
+
+![F-test Top Features](../../assets/ames-f-test-features.png)
+*Top 30 features seleccionadas por F-test*
+
+![RFE Feature Ranking](../../assets/ames-rfe-ranking.png)
+*Ranking de features por Recursive Feature Elimination*
+
+![Incremental PCA Variance](../../assets/ames-incremental-pca-variance.png)
+*Varianza explicada con Incremental PCA*
 
 ---
 

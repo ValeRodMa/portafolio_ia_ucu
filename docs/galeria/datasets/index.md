@@ -1,5 +1,4 @@
 # 📈 Datasets Especializados
-{{ reading_time() }}
 ---
 
 ## 🎯 Visualizaciones por Dominio de Aplicación

@@ -6,7 +6,7 @@ nav:
   - Portfolio: portfolio/index.md
   - Exploraciones Extra: exploraciones-extra/index.md
   - Galería Visual: galeria/index.md
-  - Ruta de Aprendizaje: dashboard.md
+  - Ruta de Aprendizaje: ruta-de-aprendizaje.md
   - Recursos: recursos.md
 
 theme:

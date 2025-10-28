@@ -1,8 +1,4 @@
 # 🚀 Exploraciones Extra: Investigando + Datasets
-
-## 📊 Análisis Complementarios con Datasets Alternativos
-## Propósito
-
 Esta sección presenta **exploraciones adicionales** con datasets alternativos.
 
 ---
