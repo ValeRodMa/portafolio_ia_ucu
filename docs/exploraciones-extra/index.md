@@ -5,13 +5,13 @@ Esta sección presenta **exploraciones adicionales** con datasets alternativos.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="padding: 20px; background: linear-gradient(135deg, #f8f9fa 0%, #e8f5e8 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-  <div style="font-size: 2.5em; color: #4caf50; margin-bottom: 5px;">4</div>
+  <div style="font-size: 2.5em; color: #4caf50; margin-bottom: 5px;">5</div>
   <div style="font-size: 1.1em; color: #2e7d32; font-weight: bold;">Exploraciones</div>
   <div style="font-size: 0.9em; color: #666;">Completadas</div>
   </div>
   
   <div style="padding: 20px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    <div style="font-size: 2.5em; color: #ff9800; margin-bottom: 5px;">16</div>
+    <div style="font-size: 2.5em; color: #ff9800; margin-bottom: 5px;">18</div>
     <div style="font-size: 1.1em; color: #f57c00; font-weight: bold;">Visualizaciones</div>
     <div style="font-size: 0.9em; color: #666;">Generadas</div>
   </div>
@@ -44,4 +44,10 @@ Esta sección presenta **exploraciones adicionales** con datasets alternativos.
 **Dataset**: Credit Card Fraud Detection (Kaggle/UCI ML Repository) - 284,807 transacciones con 30 variables financieras. Incluye 28 features anonimizadas (V1-V28), Amount, Time y Class para detección de fraude en tarjetas de crédito.
 
 **Enfoque**: Replicación del análisis de importancia de features aplicando Mutual Information y Random Forest con SMOTE para manejar el desbalance extremo (0.172% de fraude) en datos financieros.
+
+### **👔 [Encoding Avanzado - Employee Attrition](09b-encoding-employee-attrition/)**
+
+**Dataset**: Employee Attrition (IBM HR Analytics) - 1,470 empleados con información completa de recursos humanos. Incluye variables categóricas como Department, JobRole, EducationField, BusinessTravel y otras para predicción de rotación de personal.
+
+**Enfoque**: Replicación del análisis de encoding avanzado aplicando Label Encoding, One-Hot Encoding y Target Encoding en el contexto de recursos humanos, comparando técnicas para variables categóricas de alta cardinalidad.
 
