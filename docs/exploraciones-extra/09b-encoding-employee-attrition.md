@@ -9,7 +9,7 @@
 
 ---
 
-**Acceso al notebook completo:** [Práctica 9B - Encoding Avanzado - Employee Attrition](../assets/Practica09B_Employee_Attrition_Encoding.ipynb)
+**Acceso al notebook completo:** [Práctica 9B - Encoding Avanzado y Target Encoding - Employee Attrition](../assets/Practica09B_Employee_Attrition_Encoding.ipynb)
 
 ---
 
