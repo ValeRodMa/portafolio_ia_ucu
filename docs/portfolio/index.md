@@ -10,7 +10,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">11</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
+              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">12</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 28/10/2025 - 19:44:03 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 29/10/2025 - 14:20:13 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -60,6 +60,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 <li><strong><a href="08-feature-importance-analysis/">Análisis de importancia de features: explorando distribuciones y selección de variables</a></strong> - Comparación de metodologías (Mutual Information vs Random Forest) para selección de variables.</li>
 <li><strong><a href="09-encoding-avanzado-target-encoding/">Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad</a></strong> - Análisis comparativo de Label, One-Hot, Target Encoding y técnicas avanzadas con dataset Adult Income.</li>
 <li><strong><a href="10-pca-feature-selection-ames/">PCA y Feature Selection: reducción dimensional y selección estratégica en Ames Housing</a></strong> - Implementación de PCA, Filter Methods (F-test, MI), Wrapper Methods (Forward, Backward, RFE) con dataset Ames Housing.</li>
+<li><strong><a href="11-temporal-feature-engineering/">Temporal Feature Engineering: técnicas avanzadas con datos transaccionales de e-commerce</a></strong> - Implementación de lag features, rolling/expanding windows, RFM analysis, time windows, encoding cíclico y validación temporal con dataset Online Retail.</li>
 </ol>
 
 

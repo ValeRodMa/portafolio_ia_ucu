@@ -86,6 +86,40 @@
 
 ---
 
+### **⏰ Temporal Feature Engineering**
+
+![Distribuciones Temporales](../../assets/temporal-exploration-distributions.png)
+*Órdenes por semana y distribución de días entre órdenes*
+
+![Rolling Mean vs Cart Size](../../assets/temporal-rolling-mean-cart-size.png)
+*Rolling mean de cart size con ventana de 3 órdenes*
+
+![Rolling vs Expanding Windows](../../assets/temporal-rolling-vs-expanding.png)
+*Comparación de ventanas móviles vs expandibles*
+
+![Distribuciones RFM](../../assets/temporal-rfm-distributions.png)
+*Análisis RFM (Recency, Frequency, Monetary)*
+
+![Time Windows Comparison](../../assets/temporal-time-windows-comparison.png)
+*Comparación de ventanas temporales (7d, 30d, 90d)*
+
+![Product Diversity](../../assets/temporal-product-diversity.png)
+*Análisis de diversidad de productos y ratio de diversidad*
+
+![Calendar Features - Encoding Cíclico](../../assets/temporal-calendar-cyclic-encoding.png)
+*Encoding cíclico de hora, día de semana y efecto weekend*
+
+![Economic Indicators](../../assets/temporal-economic-indicators.png)
+*Indicadores económicos y su relación con órdenes*
+
+![Model Performance Comparison](../../assets/temporal-model-performance-comparison.png)
+*Comparación de performance: modelo base vs modelo con features temporales*
+
+![Feature Importance](../../assets/temporal-feature-importance.png)
+*Análisis de importancia de features temporales por categoría*
+
+---
+
 ## 🎯 Técnicas de Feature Engineering Aplicadas
 
 ### **📏 Escalado y Normalización**
