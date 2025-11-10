@@ -8,7 +8,7 @@ geopandas>=1.1
 shapely>=2.1
 pyproj>=3.7
 fiona>=1.10
-rtree>=1.4
+rtree==1.4.0
 contextily>=1.6
 folium>=0.20
 mapclassify>=2.10
