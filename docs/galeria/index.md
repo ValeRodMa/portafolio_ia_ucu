@@ -6,7 +6,7 @@
     <strong>Colección completa de gráficas y análisis visuales</strong>
   </p>
   <p style="font-size: 1.1em; color: #888; max-width: 600px; margin: 0 auto;">
-    Explora todas las visualizaciones generadas en mis proyectos de análisis de datos, machine learning e ingeniería de features.
+    Explora todas las visualizaciones generadas en mis proyectos de análisis de datos, machine learning, ingeniería de features y analítica geoespacial.
   </p>
 </div>
 
@@ -53,7 +53,7 @@
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="padding: 20px; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">75</div>
+    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">79</div>
     <div style="font-size: 1.1em; color: #ad1457; font-weight: bold;">Gráficas</div>
     <div style="font-size: 0.9em; color: #666;">Generadas</div>
   </div>
@@ -98,7 +98,7 @@
 
 <div style="padding: 25px; border: 2px solid #fff3e0; border-radius: 12px; background: linear-gradient(135deg, #f8f9fa 0%, #fff3e0 100%);">
   <h3 style="margin-top: 0; color: #f57c00;">📈 Datasets Especializados</h3>
-  <p>Análisis específicos por dominio (médico, financiero, etc.).</p>
+  <p>Análisis por dominio con foco en medicina, finanzas, agricultura y analítica urbana.</p>
   <a href="datasets/" style="color: #f57c00; font-weight: bold;">Ver Datasets →</a>
 </div>
 

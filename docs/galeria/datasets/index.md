@@ -114,6 +114,22 @@
 
 ---
 
+### **🗺️ Dominio Urbano - Datos Geoespaciales (CABA)**
+
+![Silueta de radios censales de CABA](../../assets/ut4_radios_caba.png)
+*Cobertura urbana completa de radios censales en WGS84*
+
+![Densidad de población por km²](../../assets/ut4_densidad_hab_km2.png)
+*Coropleta de densidad habitacional tras reproyección a CRS métrico*
+
+![Contactos SUACI per cápita por barrio](../../assets/ut4_suaci_contactos_pc.png)
+*Integración de datos ciudadanos con demografía barrial*
+
+![Heatmap hexagonal H3 (res 8)](../../assets/ut4_hex_heatmap.png)
+*Tasas per cápita agregadas en hexágonos para comparar hotspots urbanos*
+
+---
+
 ## 🎯 Características por Dominio
 
 ### **🏥 Datos Médicos**
@@ -137,7 +153,7 @@
 ### **🏠 Datos Inmobiliarios**
 - **Variables**: Precio, ubicación, características
 - **Desafíos**: Missing data, outliers geográficos
-- **Técnicas**: Análisis de missing data, detección de outliers
+- **Técnicas**: Análisis de missing data, geolocalización
 - **Aplicación**: Valuación, análisis de mercado
 
 ### **🌺 Datos Biológicos**
@@ -145,6 +161,12 @@
 - **Desafíos**: Clasificación multiclase, outliers naturales
 - **Técnicas**: EDA completo, análisis multivariado
 - **Aplicación**: Taxonomía, clasificación biológica
+
+### **🗺️ Datos Urbanos**
+- **Variables**: Radios censales, contactos ciudadanos, densidad
+- **Desafíos**: CRS, joins espaciales, comparabilidad entre zonas
+- **Técnicas**: GeoPandas, normalización por superficie, hexgrids H3
+- **Aplicación**: Planificación urbana, priorización de servicios
 
 ---
 
@@ -162,6 +184,7 @@
 - **Agrícola**: EDA exhaustivo, análisis de calidad
 - **Inmobiliario**: Missing data analysis, geolocalización
 - **Biológico**: Clasificación multiclase, taxonomía
+- **Urbano**: Joins espaciales, análisis de densidad, hexbin comparables
 
 ### **🎯 Aplicaciones Prácticas:**
 - **Diagnóstico médico** asistido por IA
@@ -169,6 +192,7 @@
 - **Control de calidad** en procesos industriales
 - **Análisis de mercado** inmobiliario
 - **Clasificación taxonómica** automatizada
+- **Planificación urbana** basada en evidencia geoespacial
 
 ---
 
@@ -179,6 +203,7 @@
     <a href="../../exploraciones-extra/08b-feature-importance-credit-card-fraud/">💳 Credit Card Fraud</a> | 
     <a href="../../exploraciones-extra/01b-wine-quality-analysis/">🍷 Wine Quality</a><br>
     <a href="../../exploraciones-extra/05b-california-housing-missing-data/">🏠 California Housing</a> | 
-    <a href="../../portfolio/01-practica-iris/">🌺 Iris Dataset</a>
+    <a href="../../portfolio/01-practica-iris/">🌺 Iris Dataset</a> | 
+    <a href="../../portfolio/12-datos-especiales-geoespacial/">🗺️ CABA Geoespacial</a>
   </p>
 </div>
