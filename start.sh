@@ -2,7 +2,8 @@
 
 echo "Iniciando..."
 echo "Entrando al proyecto..."
-cd "/Users/valentin.rodriguez.machado/Library/CloudStorage/OneDrive-Personal/UCU/IA/Ingeniería de Datos/portafolio_ia_ucu"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR" || exit 1
 
 echo "🐍 Activando entorno virtual..."
 source venv/bin/activate
