@@ -27,7 +27,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libspatialindex-dev gdal-bin
+          sudo apt-get install -y libspatialindex-dev gdal-bin libgdal-dev
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Build site
