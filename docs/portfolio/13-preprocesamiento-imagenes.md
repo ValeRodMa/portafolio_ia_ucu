@@ -6,7 +6,6 @@
 - **Tipo**: Práctica Guiada - Assignment UT4-13
 - **Entorno**: Python + OpenCV + scikit-image + NumPy + Matplotlib + Pandas
 - **Dataset**: Pack clásico de `skimage` (camera, astronaut, coffee, coins, checkerboard, rocket, page)
-- **Fecha**: Noviembre 2025
 
 ---
 
