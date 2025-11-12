@@ -10,7 +10,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; padding: 18px; background: linear-gradient(135deg, #90a4d4 0%, #a8b5d1 100%); border-radius: 10px; color: white; box-shadow: 0 3px 12px rgba(0,0,0,0.1);">
   <div style="font-size: 1.8em; margin-bottom: 3px;">✅</div>
-              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">13</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
+              <div style="font-size: 2em; font-weight: bold; margin-bottom: 3px;">14</div> <!--CAMBIAR ACÁ LOS COMPLETADOS-->
   <div style="font-size: 0.95em; opacity: 0.9;">Completados</div>
 </div>
 
@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 10/11/2025 - 15:45:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 12/11/2025 - 16:30:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -67,8 +67,8 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <ol start="12">
 <li><strong><a href="12-datos-especiales-geoespacial/">Geoanálisis urbano con GeoPandas: densidad poblacional y servicio ciudadano en CABA</a></strong> - Pipeline geoespacial end-to-end con CRS estandarizado, uniones y agregaciones zonales, y visualizaciones con tiles de contexto.</li>
+<li><strong><a href="13-preprocesamiento-imagenes/">Preprocesamiento avanzado de imágenes: contraste, suavizado y features locales</a></strong> - Pipeline clásico de visión por computadora con métricas de QA, matching ORB/SIFT y tablero de control de calidad.</li>
 </ol>
-
 
 ---
 
@@ -79,5 +79,5 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 ---
 
-> 💡 **Para recursos de aprendizaje completos, visita la sección [📂 Recursos útiles](../recursos/)**
+> 💡 **Para recursos de aprendizaje completos, visita la sección [📂 Recursos útiles](../recursos/) **
 
