@@ -33,6 +33,16 @@ date: 2025-01-01
   - Cap. 5 (Categorical Variables) - Variables categóricas
   - Cap. 6 (Dimensionality Reduction) - Reducción dimensional
 
+### **UT4: Datos Especiales**
+1. **Geoespacial**
+   - Brust, A. V. (2023). *Ciencia de Datos para Gente Sociable* – Cap. 6: Información geográfica y mapas ([en línea](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/))
+   - [Kaggle Geospatial Analysis](https://www.kaggle.com/learn/geospatial-analysis)
+   - GeoPandas Documentation – User Guide (Introduction, CRS, Plotting) ([geopandas.org](https://geopandas.org/en/stable/))
+2. **Audio**
+   - [librosa Documentation – Tutorial + feature.mfcc](https://librosa.org/doc/latest/)
+3. **Imagen**
+   - [OpenCV Documentation – Feature Detection (SIFT y ORB)](https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html)
+
 ---
 
 ## 📖 **Lecturas Totales**
