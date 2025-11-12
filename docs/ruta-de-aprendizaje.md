@@ -66,6 +66,7 @@
 .timeline-item:nth-child(3) { border-left-color: #27ae60; }
 .timeline-item:nth-child(4) { border-left-color: #8e44ad; }
 .timeline-item:nth-child(5) { border-left-color: #3498db; }
+.timeline-item:nth-child(6) { border-left-color: #16a085; }
 
 .timeline-item:before {
   content: "";
@@ -85,6 +86,7 @@
 .timeline-item:nth-child(3):before { background: linear-gradient(135deg, #27ae60, #229954); box-shadow: 0 0 0 4px #27ae60, 0 5px 15px rgba(0,0,0,0.2); }
 .timeline-item:nth-child(4):before { background: linear-gradient(135deg, #8e44ad, #7d3c98); box-shadow: 0 0 0 4px #8e44ad, 0 5px 15px rgba(0,0,0,0.2); }
 .timeline-item:nth-child(5):before { background: linear-gradient(135deg, #3498db, #2980b9); box-shadow: 0 0 0 4px #3498db, 0 5px 15px rgba(0,0,0,0.2); }
+.timeline-item:nth-child(6):before { background: linear-gradient(135deg, #16a085, #13856d); box-shadow: 0 0 0 4px #16a085, 0 5px 15px rgba(0,0,0,0.2); }
 
 .timeline-item:after {
   content: "";
@@ -117,6 +119,7 @@
 .timeline-item:nth-child(3) .timeline-date { background: linear-gradient(135deg, #27ae60, #229954); box-shadow: 0 3px 10px rgba(39, 174, 96, 0.3); }
 .timeline-item:nth-child(4) .timeline-date { background: linear-gradient(135deg, #8e44ad, #7d3c98); box-shadow: 0 3px 10px rgba(142, 68, 173, 0.3); }
 .timeline-item:nth-child(5) .timeline-date { background: linear-gradient(135deg, #3498db, #2980b9); box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3); }
+.timeline-item:nth-child(6) .timeline-date { background: linear-gradient(135deg, #16a085, #13856d); box-shadow: 0 3px 10px rgba(22, 160, 133, 0.3); }
 
 .timeline-title {
   font-weight: bold;
@@ -191,6 +194,7 @@
 <div class="cv-section">
   <div class="learning-path-container">
     <div class="step-progress">
+      <div class="progress-dot completed"></div>
       <div class="progress-dot completed"></div>
       <div class="progress-dot completed"></div>
       <div class="progress-dot completed"></div>
@@ -288,7 +292,27 @@
       </div>
 
       <div class="timeline-item">
-        <div class="timeline-date">PASO 5 - Exploraciones Adicionales</div>
+        <div class="timeline-date">PASO 5 - Noviembre 2025</div>
+        <div class="timeline-title">
+          <span style="font-size: 1.5em;">🗺️</span>
+          Datos Especiales: Geoespacial & Visión
+        </div>
+        <div class="timeline-description">
+          <strong>Geoanálisis urbano (CABA):</strong> Pipeline geoespacial end-to-end con GeoPandas, 
+          normalización de CRS, joins y agregaciones zonales, construcción de indicadores per cápita y hexgrids H3. <br><br>
+          <strong>Preprocesamiento de imágenes:</strong> Pipeline de visión por computadora con OpenCV/scikit-image: histogramas, CLAHE, filtros bilaterales, ORB/SIFT y métricas de QA automatizadas.
+          <div style="margin-top: 15px;">
+            <span class="skill-tag">GeoPandas</span>
+            <span class="skill-tag">H3 Hexgrids</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">scikit-image</span>
+            <span class="skill-tag">Computer Vision QA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">PASO 6 - Exploraciones Adicionales</div>
         <div class="timeline-title">
           <span style="font-size: 1.5em;">🚀</span>
           Proyectos de Especialización
