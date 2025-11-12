@@ -114,6 +114,37 @@
 
 ---
 
+### **🖼️ Visión por Computadora - Preprocesamiento UT4**
+
+![Diagnóstico inicial y rango tonal](../../assets/ut5_histograma_camera.png)
+*Imagen base y distribución de intensidades en escala de grises*
+
+![Histogramas por canal RGB](../../assets/ut5_hist_rgb.png)
+*Comparación de canales para detectar dominancias cromáticas*
+
+![Comparativa de contraste (Original vs Equalize vs CLAHE)](../../assets/ut5_contraste_comparacion.png)
+*Ecualización global frente a realce adaptativo de luminancia*
+
+![Suavizado y bordes (Gaussian vs Bilateral + Canny)](../../assets/ut5_suavizado_bordes.png)
+*Impacto del suavizado en la detección de contornos confiables*
+
+![Keypoints ORB por variante](../../assets/ut5_orb_keypoints.png)
+*Densidad de puntos de interés según preprocesamiento aplicado*
+
+![Matching ORB entre original y CLAHE](../../assets/ut5_orb_matches.png)
+*Repetibilidad de features tras realzar contraste local*
+
+![Sensibilidad vs ruido (CLAHE y suavizados)](../../assets/ut5_sensibilidad_ruido.png)
+*Barrido de parámetros para equilibrar keypoints y bordes falsos*
+
+![Benchmark ORB vs SIFT](../../assets/ut5_benchmark_orb_sift.png)
+*Comparativa de tiempo y matches entre descriptores binarios y flotantes*
+
+![Dashboard de control de calidad](../../assets/ut5_dashboard_qa.png)
+*KPIs por imagen y alertas automáticas para monitorear lotes*
+
+---
+
 ### **🗺️ Dominio Urbano - Datos Geoespaciales (CABA)**
 
 ![Silueta de radios censales de CABA](../../assets/ut4_radios_caba.png)
@@ -204,6 +235,7 @@
     <a href="../../exploraciones-extra/01b-wine-quality-analysis/">🍷 Wine Quality</a><br>
     <a href="../../exploraciones-extra/05b-california-housing-missing-data/">🏠 California Housing</a> | 
     <a href="../../portfolio/01-practica-iris/">🌺 Iris Dataset</a> | 
-    <a href="../../portfolio/12-datos-especiales-geoespacial/">🗺️ CABA Geoespacial</a>
+    <a href="../../portfolio/12-datos-especiales-geoespacial/">🗺️ CABA Geoespacial</a> |
+    <a href="../../portfolio/13-preprocesamiento-imagenes/">🖼️ Preprocesamiento de Imágenes</a>
   </p>
 </div>
