@@ -33,7 +33,10 @@ Hallazgos clave:
 - En RGB el canal **R** es dominante, lo que explica el tono cálido; la implicancia es que cualquier ajuste de color debe preservar dicho balance para no introducir artefactos.
 
 ![Diagnóstico inicial: imagen y histograma](../assets/ut5_histograma_camera.png)
+*Imagen base y distribución de intensidades en escala de grises*
+
 ![Histogramas por canal (RGB)](../assets/ut5_hist_rgb.png)
+*Comparación de canales para detectar dominancias cromáticas*
 
 ### Reflexión Parte A
 
@@ -61,6 +64,7 @@ Insights:
 - CLAHE supera a la ecualización global en zonas homogéneas, ya que opera a nivel de sub-bloques y limita el ruido.
 
 ![Comparativa de contraste: original, equalize y CLAHE](../assets/ut5_contraste_comparacion.png)
+*Ecualización global frente a realce adaptativo de luminancia*
 
 ### Reflexión Parte B
 
@@ -85,6 +89,7 @@ Resultados cuantitativos:
 - Recomendación: usar bilateral en escenas con aristas finas para proteger contornos.
 
 ![Suavizado y bordes (Gaussian, Bilateral, Canny)](../assets/ut5_suavizado_bordes.png)
+*Impacto del suavizado en la detección de contornos confiables*
 
 ### Reflexión Parte C
 
@@ -109,7 +114,10 @@ Observaciones:
 - Ajustes sugeridos: `nfeatures=750`, `scaleFactor=1.1` → más cobertura con un costo moderado.
 
 ![Keypoints ORB por variante](../assets/ut5_orb_keypoints.png)
+*Densidad de puntos de interés según preprocesamiento aplicado*
+
 ![Matching ORB: original vs CLAHE](../assets/ut5_orb_matches.png)
+*Repetibilidad de features tras realzar contraste local*
 
 ### Reflexión Parte D
 
@@ -144,6 +152,7 @@ for clip, tile in product(clip_limits, tile_sizes):
 Conclusión: **tile 4×4 con clipLimit 1.0** maximiza *keypoints* sin aumentar el ruido. Los suavizados gaussiano/bilateral mantienen ratios de ruido casi nulos mientras el tamaño del kernel no exceda 11.
 
 ![Curvas sensibilidad vs ruido](../assets/ut5_sensibilidad_ruido.png)
+*Barrido de parámetros para equilibrar keypoints y bordes falsos*
 
 ### 2. Benchmark ORB vs. SIFT
 
@@ -154,12 +163,14 @@ Se midió el tiempo total y los matches obtenidos por descriptor.
 - Recomendación: ORB para pipelines en tiempo real; SIFT cuando prima la precisión y el tiempo no es crítico.
 
 ![Benchmark ORB vs SIFT](../assets/ut5_benchmark_orb_sift.png)
+*Comparativa de tiempo y matches entre descriptores binarios y flotantes*
 
 ### 3. Dashboard QA
 
 Se creó un tablero que muestra KPIs por imagen y resalta alertas mediante colores.
 
 ![Dashboard QA con alertas](../assets/ut5_dashboard_qa.png)
+*KPIs por imagen y alertas automáticas para monitorear lotes*
 
 Principales hallazgos:
 

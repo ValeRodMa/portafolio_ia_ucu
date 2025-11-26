@@ -19,6 +19,17 @@ theme:
     - navigation.sections
     - navigation.indexes
   custom_dir: overrides
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ValeRodMa
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/valent%C3%ADn-rodr%C3%ADguez-machado-39a315242/
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:vale.rodriguez@correo.ucu.edu.uy
+      name: Email
 extra_css:
   - assets/stylesheets/gallery.css
   - assets/stylesheets/dashboard.css
@@ -27,6 +38,7 @@ extra_javascript:
   - assets/javascripts/gallery.js
   - assets/javascripts/dashboard.js
   - assets/javascripts/extra.js
+  - assets/javascripts/chatbot.js
 plugins:
   - search
   - awesome-pages

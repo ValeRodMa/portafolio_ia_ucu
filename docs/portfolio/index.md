@@ -30,7 +30,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 
 <div style="text-align: center; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 6px; border-left: 4px solid #6c757d;">
   <p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-    📅 <strong>Última actualización:</strong> 12/11/2025 - 17:05:00 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
+    📅 <strong>Última actualización:</strong> 21/11/2025 - 09:37:43 hrs<!--CAMBIAR ACÁ LA FECHA Y HORA DE ULTIMA ACTUALIZACIÓN-->
   </p>
 </div>
 
@@ -68,6 +68,7 @@ Portfolio académico para la asignatura de Ingeniería de Datos.
 <ol start="12">
 <li><strong><a href="12-datos-especiales-geoespacial/">Geoanálisis urbano con GeoPandas: densidad poblacional y servicio ciudadano en CABA</a></strong> - Pipeline geoespacial end-to-end con CRS estandarizado, uniones y agregaciones zonales, y visualizaciones con tiles de contexto.</li>
 <li><strong><a href="13-preprocesamiento-imagenes/">Preprocesamiento avanzado de imágenes: contraste, suavizado y features locales</a></strong> - Pipeline clásico de visión por computadora con métricas de QA, matching ORB/SIFT y tablero de control de calidad.</li>
+<li><strong><a href="14-audio-como-dato/">Audio como dato: pipeline de preprocesamiento y extracción de features MFCC</a></strong> - Pipeline completo de audio desde carga hasta exportación de features MFCC, con estandarización, análisis espectral, limpieza de ruido y dashboard QA.</li>
 </ol>
 
 ---

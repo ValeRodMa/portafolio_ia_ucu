@@ -4,3 +4,4 @@ venv/
 .env
 site/
 .DS_Store
+chatbot/

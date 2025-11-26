@@ -59,13 +59,19 @@
   <div style="font-size: 0.8em; color: #666;">Procesamiento de imágenes</div>
 </div>
 
+<div style="padding: 15px; background: #f5f5f5; border-radius: 8px; text-align: center;">
+  <div style="font-size: 1.2em; margin-bottom: 5px;">🎵</div>
+  <div style="font-weight: bold;">librosa</div>
+  <div style="font-size: 0.8em; color: #666;">Procesamiento de audio</div>
+</div>
+
 </div>
 
 ---
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
   <div style="padding: 20px; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%); border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">88</div>
+    <div style="font-size: 2.5em; color: #c2185b; margin-bottom: 5px;">126</div>
     <div style="font-size: 1.1em; color: #ad1457; font-weight: bold;">Gráficas</div>
     <div style="font-size: 0.9em; color: #666;">Generadas</div>
   </div>
