@@ -11,7 +11,7 @@
     const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
     // Si tienes un backend desplegado, cambia esta URL por la de tu servicio (ej: Render, Railway, etc.)
     const API_URL = isProduction 
-        ? 'https://tu-backend-chatbot.onrender.com/chat'  // Cambiar por tu URL de producción
+        ? 'https://portafolio-ia-ucu.onrender.com/chat'  // URL de producción en Render
         : 'http://localhost:5000/chat';
     const CHATBOT_ID = 'portfolio-chatbot';
 
