@@ -18,9 +18,9 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Permitir CORS para el frontend
 
-# Rutas
-ROOT_DIR = Path(__file__).parent.parent.parent
-EMBEDDINGS_DIR = ROOT_DIR / "chatbot" / "embeddings"
+# Rutas - Compatible con desarrollo y producción
+ROOT_DIR = Path(__file__).parent.parent
+EMBEDDINGS_DIR = ROOT_DIR / "embeddings"
 
 # Inicializar cliente OpenAI
 api_key = os.getenv("OPENAI_API_KEY")
