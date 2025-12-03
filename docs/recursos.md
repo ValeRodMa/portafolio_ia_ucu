@@ -50,6 +50,12 @@ date: 2025-01-01
 #### 3. **Imagen**
 - [OpenCV Documentation – Feature Detection (SIFT y ORB)](https://docs.opencv.org/4.x/db/d27/tutorial_py_table_of_contents_feature2d.html)
 
+### **UT5: Pipelines ETL**
+- **[Google Cloud Blog – Building the data engineering driven organization from the first principles](https://cloud.google.com/blog/products/data-analytics/building-the-data-engineering-driven-organization)** - Construcción de organizaciones basadas en ingeniería de datos
+- **[Google Cloud Blog – Building streaming data pipelines on Google Cloud](https://cloud.google.com/blog/products/data-analytics/building-streaming-data-pipelines)** - Construcción de pipelines de datos en streaming
+- **[Google Developers – ML Pipelines (Managing ML Projects)](https://developers.google.com/machine-learning/managing-ml-projects/pipelines)** - Gestión de proyectos ML con pipelines
+- **[Prefect Tutorial](https://dataopsschool.com/blog/comprehensive-tutorial-prefect-in-dataops/)** - Tutorial completo de Prefect en DataOps
+
 ---
 
 ## 📖 **Lecturas Totales**

@@ -67,6 +67,8 @@
 .timeline-item:nth-child(4) { border-left-color: #8e44ad; }
 .timeline-item:nth-child(5) { border-left-color: #3498db; }
 .timeline-item:nth-child(6) { border-left-color: #16a085; }
+.timeline-item:nth-child(7) { border-left-color: #e67e22; }
+.timeline-item:nth-child(8) { border-left-color: #c0392b; }
 
 .timeline-item:before {
   content: "";
@@ -87,6 +89,8 @@
 .timeline-item:nth-child(4):before { background: linear-gradient(135deg, #8e44ad, #7d3c98); box-shadow: 0 0 0 4px #8e44ad, 0 5px 15px rgba(0,0,0,0.2); }
 .timeline-item:nth-child(5):before { background: linear-gradient(135deg, #3498db, #2980b9); box-shadow: 0 0 0 4px #3498db, 0 5px 15px rgba(0,0,0,0.2); }
 .timeline-item:nth-child(6):before { background: linear-gradient(135deg, #16a085, #13856d); box-shadow: 0 0 0 4px #16a085, 0 5px 15px rgba(0,0,0,0.2); }
+.timeline-item:nth-child(7):before { background: linear-gradient(135deg, #e67e22, #d35400); box-shadow: 0 0 0 4px #e67e22, 0 5px 15px rgba(0,0,0,0.2); }
+.timeline-item:nth-child(8):before { background: linear-gradient(135deg, #c0392b, #a93226); box-shadow: 0 0 0 4px #c0392b, 0 5px 15px rgba(0,0,0,0.2); }
 
 .timeline-item:after {
   content: "";
@@ -120,6 +124,8 @@
 .timeline-item:nth-child(4) .timeline-date { background: linear-gradient(135deg, #8e44ad, #7d3c98); box-shadow: 0 3px 10px rgba(142, 68, 173, 0.3); }
 .timeline-item:nth-child(5) .timeline-date { background: linear-gradient(135deg, #3498db, #2980b9); box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3); }
 .timeline-item:nth-child(6) .timeline-date { background: linear-gradient(135deg, #16a085, #13856d); box-shadow: 0 3px 10px rgba(22, 160, 133, 0.3); }
+.timeline-item:nth-child(7) .timeline-date { background: linear-gradient(135deg, #e67e22, #d35400); box-shadow: 0 3px 10px rgba(230, 126, 34, 0.3); }
+.timeline-item:nth-child(8) .timeline-date { background: linear-gradient(135deg, #c0392b, #a93226); box-shadow: 0 3px 10px rgba(192, 57, 43, 0.3); }
 
 .timeline-title {
   font-weight: bold;
@@ -200,6 +206,8 @@
       <div class="progress-dot completed"></div>
       <div class="progress-dot completed"></div>
       <div class="progress-dot completed"></div>
+      <div class="progress-dot completed"></div>
+      <div class="progress-dot active"></div>
     </div>
     
     <div class="timeline-section">
@@ -330,6 +338,50 @@
             <span class="skill-tag">Class Imbalance</span>
             <span class="skill-tag">Feature Scaling</span>
             <span class="skill-tag">Medical Data</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">PASO 7 - Diciembre 2025</div>
+        <div class="timeline-title">
+          <span style="font-size: 1.5em;">☁️</span>
+          Pipelines ETL en la Nube
+        </div>
+        <div class="timeline-description">
+          <strong>Google Cloud Platform:</strong> Introducción práctica a GCP explorando 
+          proyectos, IAM, roles, permisos y APIs. Base fundamental para construir pipelines 
+          ETL escalables en la nube con servicios gestionados. <br><br>
+          <strong>Cloud Dataprep:</strong> Preparación visual de datos sin código con Cloud Dataprep. 
+          Implementé pipelines ETL automatizados para limpieza, transformación y enriquecimiento 
+          de datos, conectando múltiples fuentes y destinos en BigQuery.
+          <div style="margin-top: 15px;">
+            <span class="skill-tag">Google Cloud Platform</span>
+            <span class="skill-tag">Cloud Dataprep</span>
+            <span class="skill-tag">ETL Pipelines</span>
+            <span class="skill-tag">BigQuery</span>
+            <span class="skill-tag">IAM & Security</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">🎓 Miércoles 03 de Diciembre 2025</div>
+        <div class="timeline-title">
+          <span style="font-size: 1.5em;">🎯</span>
+          Presentación y Defensa del Portfolio
+        </div>
+        <div class="timeline-description">
+          <strong>Defensa Final:</strong> Presentación completa del portfolio académico 
+          demostrando el dominio de todas las unidades temáticas: EDA, calidad de datos, 
+          feature engineering, datos especiales y pipelines ETL. <br><br>
+          <strong>Objetivos:</strong> Demostrar competencias técnicas adquiridas, capacidad 
+          de análisis crítico y aplicación práctica de conocimientos en proyectos reales 
+          de ingeniería de datos.
+          <div style="margin-top: 15px;">
+            <span class="skill-tag">Portfolio Defense</span>
+            <span class="skill-tag">Academic Presentation</span>
+            <span class="skill-tag">Technical Competencies</span>
           </div>
         </div>
       </div>
