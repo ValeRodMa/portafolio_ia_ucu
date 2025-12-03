@@ -41,10 +41,19 @@ def clean_markdown(text: str) -> str:
 
 def extract_metadata(file_path: Path) -> Dict:
     """Extrae metadata del frontmatter."""
+    # Manejar archivos fuera de DOCS_DIR (como métricas)
+    try:
+        relative_path = str(file_path.relative_to(DOCS_DIR))
+        url = f"/{file_path.relative_to(DOCS_DIR).with_suffix('')}/"
+    except ValueError:
+        # Archivo no está en DOCS_DIR (ej: métricas)
+        relative_path = file_path.name
+        url = f"/metricas/"
+    
     metadata = {
-        "file": str(file_path.relative_to(DOCS_DIR)),
+        "file": relative_path,
         "title": file_path.stem,
-        "url": f"/{file_path.relative_to(DOCS_DIR).with_suffix('')}/"
+        "url": url
     }
     
     try:
@@ -64,6 +73,12 @@ def extract_metadata(file_path: Path) -> Dict:
                         metadata['title'] = value
                     elif key == 'date':
                         metadata['date'] = value
+        
+        # Buscar título en markdown si no hay frontmatter
+        if metadata['title'] == file_path.stem:
+            h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+            if h1_match:
+                metadata['title'] = h1_match.group(1).strip()
     except Exception as e:
         print(f"Error extrayendo metadata de {file_path}: {e}")
     
@@ -119,6 +134,12 @@ def extract_portfolio_content():
         page_path = DOCS_DIR / page
         if page_path.exists():
             markdown_files.append(page_path)
+    
+    # Documento de métricas (si existe)
+    metrics_file = OUTPUT_DIR / "portfolio_metrics.md"
+    if metrics_file.exists():
+        markdown_files.append(metrics_file)
+        print("📊 Incluyendo documento de métricas del portfolio")
     
     print(f"📄 Encontrados {len(markdown_files)} archivos markdown")
     

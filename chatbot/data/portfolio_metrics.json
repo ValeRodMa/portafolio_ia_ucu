@@ -1,0 +1,550 @@
+{
+  "summary": {
+    "total_entries": 26,
+    "portfolio_entries": 17,
+    "extra_entries": 9,
+    "total_words": 31799,
+    "total_images": 133,
+    "total_code_blocks": 74,
+    "total_inline_code": 525,
+    "avg_words_per_entry": 1223,
+    "avg_images_per_entry": 5.115384615384615,
+    "longest_entry": {
+      "title": "Audio como dato: pipeline de preprocesamiento y extracción de features MFCC",
+      "file": "portfolio/14-audio-como-dato.md",
+      "word_count": 2381
+    },
+    "most_images_entry": {
+      "title": "Audio como dato: pipeline de preprocesamiento y extracción de features MFCC",
+      "file": "portfolio/14-audio-como-dato.md",
+      "image_count": 17
+    },
+    "most_code_entry": {
+      "title": "Audio como dato: pipeline de preprocesamiento y extracción de features MFCC",
+      "file": "portfolio/14-audio-como-dato.md",
+      "code_blocks": 15
+    },
+    "datasets_used": [
+      "ames",
+      "boston",
+      "california housing",
+      "credit card",
+      "employee",
+      "heart disease",
+      "iris",
+      "netflix",
+      "stock",
+      "titanic",
+      "wine quality"
+    ],
+    "technologies_used": [
+      "dataprep",
+      "fairlearn",
+      "folium",
+      "geopandas",
+      "google cloud",
+      "librosa",
+      "matplotlib",
+      "numpy",
+      "opencv",
+      "pandas",
+      "plotly",
+      "scikit-learn",
+      "seaborn",
+      "sklearn"
+    ],
+    "total_datasets": 11,
+    "total_technologies": 14
+  },
+  "file_metrics": [
+    {
+      "file": "portfolio/04-eda-multifuentes-joins.md",
+      "title": "Integrando datos metropolitanos: pipeline automatizado con 3M+ viajes de taxi de NYC",
+      "word_count": 950,
+      "char_count": 8848,
+      "line_count": 220,
+      "images": 1,
+      "code_blocks": 4,
+      "inline_code": 19,
+      "datasets": [],
+      "technologies": [
+        "pandas"
+      ]
+    },
+    {
+      "file": "portfolio/16-cloud-dataprep.md",
+      "title": "Cloud Dataprep: preparación y transformación de datos sin código",
+      "word_count": 1676,
+      "char_count": 12395,
+      "line_count": 320,
+      "images": 4,
+      "code_blocks": 0,
+      "inline_code": 0,
+      "datasets": [],
+      "technologies": [
+        "google cloud",
+        "dataprep"
+      ]
+    },
+    {
+      "file": "portfolio/14-audio-como-dato.md",
+      "title": "Audio como dato: pipeline de preprocesamiento y extracción de features MFCC",
+      "word_count": 2381,
+      "char_count": 23712,
+      "line_count": 526,
+      "images": 17,
+      "code_blocks": 15,
+      "inline_code": 55,
+      "datasets": [
+        "ames"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "librosa"
+      ]
+    },
+    {
+      "file": "portfolio/06-feature-scaling-anti-leakage-pipeline.md",
+      "title": "Transformando datos inmobiliarios: pipeline anti-leakage para predicciones justas",
+      "word_count": 1566,
+      "char_count": 12384,
+      "line_count": 277,
+      "images": 9,
+      "code_blocks": 2,
+      "inline_code": 14,
+      "datasets": [
+        "ames"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/10-pca-feature-selection-ames.md",
+      "title": "PCA y Feature Selection: reducción dimensional y selección estratégica en Ames Housing",
+      "word_count": 1672,
+      "char_count": 12864,
+      "line_count": 401,
+      "images": 7,
+      "code_blocks": 2,
+      "inline_code": 3,
+      "datasets": [
+        "ames"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/08-feature-importance-analysis.md",
+      "title": "Análisis de importancia de features: explorando distribuciones y selección de variables",
+      "word_count": 1048,
+      "char_count": 9399,
+      "line_count": 222,
+      "images": 4,
+      "code_blocks": 1,
+      "inline_code": 53,
+      "datasets": [
+        "ames"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/11-temporal-feature-engineering.md",
+      "title": "Temporal Feature Engineering: técnicas avanzadas con datos transaccionales de e-commerce",
+      "word_count": 2313,
+      "char_count": 22919,
+      "line_count": 645,
+      "images": 10,
+      "code_blocks": 12,
+      "inline_code": 77,
+      "datasets": [],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/01-practica-iris.md",
+      "title": "Exploración inicial del Dataset Iris: descubriendo patrones morfológicos entre especies con Pandas",
+      "word_count": 1580,
+      "char_count": 13753,
+      "line_count": 329,
+      "images": 7,
+      "code_blocks": 4,
+      "inline_code": 12,
+      "datasets": [
+        "ames",
+        "iris"
+      ],
+      "technologies": [
+        "plotly",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/09-encoding-avanzado-target-encoding.md",
+      "title": "Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad",
+      "word_count": 1391,
+      "char_count": 13967,
+      "line_count": 419,
+      "images": 6,
+      "code_blocks": 8,
+      "inline_code": 35,
+      "datasets": [],
+      "technologies": [
+        "scikit-learn",
+        "matplotlib",
+        "seaborn",
+        "pandas"
+      ]
+    },
+    {
+      "file": "portfolio/05-missing-data-detective.md",
+      "title": "Detectando el misterio de los datos faltantes: análisis forense del dataset Ames Housing",
+      "word_count": 1329,
+      "char_count": 10669,
+      "line_count": 278,
+      "images": 4,
+      "code_blocks": 0,
+      "inline_code": 19,
+      "datasets": [
+        "ames"
+      ],
+      "technologies": [
+        "scikit-learn",
+        "seaborn",
+        "pandas"
+      ]
+    },
+    {
+      "file": "portfolio/07-bias-detection-fairlearn.md",
+      "title": "Desenmascarando sesgos algorítmicos: análisis ético con Fairlearn en datasets históricos",
+      "word_count": 953,
+      "char_count": 9513,
+      "line_count": 240,
+      "images": 1,
+      "code_blocks": 1,
+      "inline_code": 4,
+      "datasets": [
+        "boston",
+        "ames",
+        "titanic"
+      ],
+      "technologies": [
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "fairlearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/03-eda-netflix-pandas.md",
+      "title": "Descifrando el catálogo de Netflix: análisis exploratorio de tendencias de contenido global",
+      "word_count": 1082,
+      "char_count": 9387,
+      "line_count": 272,
+      "images": 1,
+      "code_blocks": 3,
+      "inline_code": 6,
+      "datasets": [
+        "netflix"
+      ],
+      "technologies": [
+        "numpy",
+        "plotly",
+        "matplotlib",
+        "folium",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/00-entrada-familiarizacion.md",
+      "title": "Entrada de Familiarización - Proyecto inicial",
+      "word_count": 371,
+      "char_count": 3223,
+      "line_count": 80,
+      "images": 0,
+      "code_blocks": 1,
+      "inline_code": 4,
+      "datasets": [],
+      "technologies": []
+    },
+    {
+      "file": "portfolio/13-preprocesamiento-imagenes.md",
+      "title": "Preprocesamiento avanzado de imágenes: contraste, suavizado y features locales",
+      "word_count": 1155,
+      "char_count": 9620,
+      "line_count": 213,
+      "images": 9,
+      "code_blocks": 5,
+      "inline_code": 27,
+      "datasets": [],
+      "technologies": [
+        "matplotlib",
+        "numpy",
+        "opencv",
+        "pandas"
+      ]
+    },
+    {
+      "file": "portfolio/02-publicacion-portfolio-githubpages.md",
+      "title": "Desplegando mi Portfolio: de código local a GitHub Pages con MkDocs",
+      "word_count": 644,
+      "char_count": 4276,
+      "line_count": 116,
+      "images": 0,
+      "code_blocks": 0,
+      "inline_code": 8,
+      "datasets": [
+        "iris"
+      ],
+      "technologies": [
+        "sklearn",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "portfolio/15-google-cloud-intro.md",
+      "title": "Introducción a Google Cloud: primeros pasos con la consola y servicios",
+      "word_count": 1329,
+      "char_count": 9502,
+      "line_count": 219,
+      "images": 3,
+      "code_blocks": 0,
+      "inline_code": 6,
+      "datasets": [],
+      "technologies": [
+        "google cloud",
+        "dataprep"
+      ]
+    },
+    {
+      "file": "portfolio/12-datos-especiales-geoespacial.md",
+      "title": "Geoanálisis urbano con GeoPandas: densidad poblacional y servicio ciudadano en CABA",
+      "word_count": 815,
+      "char_count": 6210,
+      "line_count": 138,
+      "images": 4,
+      "code_blocks": 0,
+      "inline_code": 25,
+      "datasets": [],
+      "technologies": [
+        "folium",
+        "matplotlib",
+        "geopandas",
+        "pandas"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/11b-temporal-features-stock-prices.md",
+      "title": "Temporal Feature Engineering: análisis temporal con precios de acciones",
+      "word_count": 1137,
+      "char_count": 9190,
+      "line_count": 229,
+      "images": 6,
+      "code_blocks": 1,
+      "inline_code": 7,
+      "datasets": [
+        "stock"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/05b-california-housing-missing-data.md",
+      "title": "Missing Data Detective: análisis forense del dataset California Housing",
+      "word_count": 1035,
+      "char_count": 8181,
+      "line_count": 188,
+      "images": 5,
+      "code_blocks": 0,
+      "inline_code": 26,
+      "datasets": [
+        "boston",
+        "ames",
+        "california housing"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/09b-encoding-employee-attrition.md",
+      "title": "Encoding Avanzado - Employee Attrition: comparando técnicas para variables categóricas en datos de RR.HH.",
+      "word_count": 1312,
+      "char_count": 11094,
+      "line_count": 281,
+      "images": 2,
+      "code_blocks": 3,
+      "inline_code": 26,
+      "datasets": [
+        "employee"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/08b-feature-importance-credit-card-fraud.md",
+      "title": "Análisis de Importancia de Features - Credit Card Fraud Detection",
+      "word_count": 1036,
+      "char_count": 9793,
+      "line_count": 235,
+      "images": 5,
+      "code_blocks": 4,
+      "inline_code": 18,
+      "datasets": [
+        "credit card"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/05b-boston-housing-missing-data.md",
+      "title": "Missing Data Detective: análisis forense del dataset California Housing",
+      "word_count": 1014,
+      "char_count": 8067,
+      "line_count": 187,
+      "images": 5,
+      "code_blocks": 0,
+      "inline_code": 26,
+      "datasets": [
+        "boston",
+        "ames",
+        "california housing"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/01b-wine-quality-analysis.md",
+      "title": "Análisis exploratorio del Dataset Wine Quality: descubriendo patrones fisicoquímicos que definen la calidad del vino",
+      "word_count": 759,
+      "char_count": 6593,
+      "line_count": 170,
+      "images": 4,
+      "code_blocks": 1,
+      "inline_code": 18,
+      "datasets": [
+        "wine quality",
+        "iris"
+      ],
+      "technologies": [
+        "matplotlib",
+        "numpy",
+        "seaborn",
+        "pandas"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/06b-feature-scaling-heart-disease.md",
+      "title": "06B: Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset",
+      "word_count": 972,
+      "char_count": 11234,
+      "line_count": 317,
+      "images": 5,
+      "code_blocks": 5,
+      "inline_code": 14,
+      "datasets": [
+        "heart disease"
+      ],
+      "technologies": [
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "sklearn",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/12b-geoanalisis-montevideo.md",
+      "title": "Geoanálisis urbano con GeoPandas: análisis de densidad y servicios en Montevideo",
+      "word_count": 1126,
+      "char_count": 8877,
+      "line_count": 198,
+      "images": 5,
+      "code_blocks": 1,
+      "inline_code": 16,
+      "datasets": [],
+      "technologies": [
+        "folium",
+        "numpy",
+        "geopandas",
+        "pandas"
+      ]
+    },
+    {
+      "file": "exploraciones-extra/13b-preprocesamiento-imagenes-alternativo.md",
+      "title": "Preprocesamiento avanzado de imágenes: análisis con dataset alternativo",
+      "word_count": 1153,
+      "char_count": 9454,
+      "line_count": 217,
+      "images": 9,
+      "code_blocks": 1,
+      "inline_code": 7,
+      "datasets": [],
+      "technologies": [
+        "matplotlib",
+        "numpy",
+        "opencv",
+        "pandas"
+      ]
+    }
+  ]
+}
