@@ -26,7 +26,7 @@
                 <div class="chatbot-messages" id="chatbot-messages">
                     <div class="chatbot-message bot">
                         <p>¡Hola! 👋 Soy el asistente de Valentín. Puedo responder preguntas sobre las prácticas, técnicas, datasets y contenido del portfolio. ¿En qué puedo ayudarte?</p>
-                        ${isProduction ? '<p style="margin-top: 10px; font-size: 12px; color: #666;"><em>Nota: El chatbot requiere que el backend esté desplegado para funcionar en producción.</em></p>' : ''}
+                        ${isProduction ? '<p style="margin-top: 10px; font-size: 12px; color: #666;"><em>Nota: Puede que tu respuesta tarde un poco en aparecer, por favor espera un momento mientras se procesa.</em></p>' : ''}
                     </div>
                 </div>
                 <div class="chatbot-input-container">
