@@ -1,4 +1,11 @@
 # Geoanálisis urbano con GeoPandas: densidad poblacional y servicio ciudadano en CABA
+
+<a href="../../assets/Practico_12.ipynb" download="Practico_12.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -9,8 +16,6 @@
 - **Fecha**: Noviembre 2025
 
 ---
-
-**Acceso al notebook completo:** [Práctica 12 - Datos Especiales (GeoPandas)](../assets/Practico_12.ipynb)
 
 ---
 

@@ -1,4 +1,11 @@
 # Audio como dato: pipeline de preprocesamiento y extracción de features MFCC
+
+<a href="../../assets/Practico14.ipynb" download="Practico14.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -8,8 +15,6 @@
 - **Dataset**: UrbanSound8K (8,732 clips de audio urbano, 10 clases)
 
 ---
-
-**Acceso al notebook completo:** [Práctica 14 - Audio como dato](../assets/Practico14.ipynb)
 
 ---
 

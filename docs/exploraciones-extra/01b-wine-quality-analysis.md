@@ -1,4 +1,11 @@
 # Análisis exploratorio del Dataset Wine Quality: descubriendo patrones fisicoquímicos que definen la calidad del vino
+
+<a href="../../exploraciones-extra/Practica_01_Wine_Quality_Analysis.ipynb" download="Practica_01_Wine_Quality_Analysis.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor**: Valentín Rodríguez
@@ -36,8 +43,6 @@ Esta práctica representa una **versión alternativa** del análisis exploratori
 - **Variables fisicoquímicas:** 11 atributos medibles
 - **Variable objetivo:** Quality (0-10)
 - **Fuente:** [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality)
-
-**Acceso al notebook completo:** [Práctica 1B - Análisis Wine Quality](Practica_01_Wine_Quality_Analysis.ipynb)
 
 ### Variables Principales Analizadas
 

@@ -1,4 +1,11 @@
 # Temporal Feature Engineering: técnicas avanzadas con datos transaccionales de e-commerce
+
+<a href="../../assets/Practica11_Temporal_Feature_Engineering.ipynb" download="Practica11_Temporal_Feature_Engineering.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -9,8 +16,6 @@
 - **Fecha**: Octubre 2025
 
 ---
-
-**Acceso al notebook completo:** [Práctica 11 - Temporal Feature Engineering](../assets/Practica11_Temporal_Feature_Engineering.ipynb)
 
 ---
 

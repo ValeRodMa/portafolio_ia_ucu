@@ -14,7 +14,7 @@ chatbot/
 └── scripts/          # Scripts para extraer contenido y generar embeddings
 ```
 ----------
-## ¿Cómo Funciona?X
+## ¿Cómo Funciona?
 
 El chatbot funciona en 3 etapas principales:
 
@@ -25,7 +25,7 @@ El chatbot funciona en 3 etapas principales:
 3. **Búsqueda y respuesta**: Cuando un usuario hace una pregunta:
    - Se genera un embedding de la pregunta
    - Se busca similitud con todos los embeddings guardados
-   - Se recuperan los 5 chunks más relevantes
+   - Se recuperan los 3 chunks más relevantes (optimizado para velocidad)
    - Esos chunks se envían como contexto a GPT-3.5-turbo junto con la pregunta
    - GPT genera una respuesta basada únicamente en el contexto del portfolio
 
@@ -61,6 +61,35 @@ Los usuarios pueden:
 - Ver respuestas contextualizadas con referencias a las fuentes
 - Navegar directamente a las prácticas mencionadas
 
+### Preguntas de ejemplo para probar:
+- "¿Qué es la práctica 11?"
+- "Explícame sobre feature engineering temporal"
+- "¿Qué datasets usaste en el portfolio?"
+- "Háblame sobre Google Cloud Dataprep"
+- "¿Cuáles son las técnicas de análisis de datos que has usado?"
+
+### Optimizaciones recientes:
+- **Velocidad mejorada**: Reducido de 5 a 3 chunks por consulta (30-40% más rápido)
+- **Respuestas más concisas**: Máximo 350 tokens (antes 500)
+- **Solo contenido del portfolio**: El chatbot rechaza preguntas no relacionadas con el portfolio
+- **Umbral de similitud**: Solo responde si hay suficiente relevancia (≥0.4)
+- **Temperatura reducida**: Respuestas más consistentes y predecibles (0.3 vs 0.7)
+
+----------
+## Despliegue en Producción
+
+El chatbot está desplegado en **Render**:
+- **Backend**: https://portafolio-ia-ucu.onrender.com
+- **Frontend**: Se integra automáticamente en GitHub Pages
+- **Plan**: Verificar en [Render Dashboard](https://dashboard.render.com/) → Instance Type
+  - Free: Con sleep después de 15 min de inactividad
+  - Starter ($7/mes): Sin sleep, siempre activo
+
+
 ----------
 ## Costos Estimados
-- **Estimación mensual** (uso moderado, ~1000 preguntas): $5-15 USD
+- **Render Starter** (sin sleep): $7/mes
+- **OpenAI API** (uso moderado, ~1000 preguntas/mes): $5-10 USD
+- **Total mensual estimado**: $12-17 USD
+
+_Nota: Si usas el plan Free de Render, el costo es $0 pero el servicio "duerme" después de 15 minutos de inactividad._

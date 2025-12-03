@@ -1,4 +1,11 @@
 # Temporal Feature Engineering: análisis temporal con precios de acciones
+
+<a href="../../assets/Practica_11b_Temporal_Features_Stock_Prices.ipynb" download="Practica_11b_Temporal_Features_Stock_Prices.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor**: Valentín Rodríguez
@@ -37,8 +44,6 @@ Esta práctica representa una **versión alternativa** del análisis de temporal
 - **Período:** 2022-01-01 a 2024-01-01 (2 años de datos)
 - **Variables principales:** Precio (Open, High, Low, Close), Volumen, Retornos diarios
 - **Fuente:** Yahoo Finance vía yfinance
-
-**Acceso al notebook completo:** [Práctica 11B - Temporal Features Stock Prices](../assets/Practica_11b_Temporal_Features_Stock_Prices.ipynb)
 
 ### Acciones Analizadas
 
@@ -222,4 +227,3 @@ df['dow_cos'] = np.cos(2 * np.pi * df['day_of_week'] / 7)
 ---
 
 *Este análisis demuestra la versatilidad y aplicabilidad universal de las técnicas de temporal feature engineering, aplicando la misma metodología rigurosa a un dominio diferente (finanzas vs e-commerce), validando la robustez del pipeline implementado.*
-

@@ -1,4 +1,11 @@
 # Análisis de Importancia de Features - Credit Card Fraud Detection
+
+<a href="../../assets/Practica08B_Credit_Card_Fraud_Feature_Importance.ipynb" download="Practica08B_Credit_Card_Fraud_Feature_Importance.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor:** Valentín Rodríguez
@@ -8,8 +15,6 @@
 - **Dataset:** Credit Card Fraud Detection (UCI ML Repository) - 284,807 transacciones, 30 variables financieras
 
 ---
-
-**Acceso al notebook completo:** [Práctica 8B - Análisis de Importancia de Features - Credit Card Fraud](../assets/Practica08B_Credit_Card_Fraud_Feature_Importance.ipynb)
 
 ---
 
@@ -228,4 +233,3 @@ Este análisis demuestra la **replicabilidad exitosa** del proyecto original 08 
 4. **Los datos anonimizados** pueden contener información valiosa para ML
 
 **Aplicación práctica:** Este tipo de análisis es fundamental para sistemas de detección de fraude en bancos, fintechs y procesadores de pagos, donde la velocidad y precisión son críticas para prevenir pérdidas financieras.
-

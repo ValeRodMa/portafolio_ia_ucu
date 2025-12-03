@@ -1,4 +1,11 @@
 # Detectando el misterio de los datos faltantes: análisis forense del dataset Ames Housing
+
+<a href="../../assets/Practica_5_Missing_Data_Detective.ipynb" download="Practica_5_Missing_Data_Detective.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 ## 📋 **Metadatos del Proyecto**
@@ -181,7 +188,6 @@ El histograma muestra la concentración de valores faltantes:
 
 - **Distribución**: Sesgada hacia la derecha, indicando pocos casos con muchos faltantes
 
-
 ### **Comparación de Distribuciones: Original vs Imputado**
 
 Las distribuciones antes y después de imputación demuestran la preservación de patrones:
@@ -195,7 +201,6 @@ Las distribuciones antes y después de imputación demuestran la preservación d
 - **Variables categóricas**: Mantenimiento de proporciones originales
 
 - **Impacto mínimo**: Las imputaciones no introducen sesgos significativos
-
 
 ### **Pipeline Reproducible**
 - **Scikit-learn**: 46 features finales después de preprocessing
@@ -238,9 +243,6 @@ Las distribuciones antes y después de imputación demuestran la preservación d
 - [Kaggle - Ames Housing Dataset](https://www.kaggle.com/shashanknecrothapa/ames-housing-dataset)
 - [Pandas Documentation - Missing Data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
 - [Scikit-learn - Imputation](https://scikit-learn.org/stable/modules/impute.html)
-
-### **Descarga del Notebook**
-📓 **[Descargar Jupyter Notebook Completo](../assets/Practica_5_Missing_Data_Detective.ipynb)**
 
 ---
 

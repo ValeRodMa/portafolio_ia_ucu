@@ -1,4 +1,11 @@
 # Missing Data Detective: análisis forense del dataset California Housing
+
+<a href="../../exploraciones-extra/Practica_05b_California_Housing_Missing_Data.ipynb" download="Practica_05b_California_Housing_Missing_Data.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor**: Valentín Rodríguez
@@ -50,8 +57,6 @@ Se comenzó a utilizar el dataset de **Boston Housing**, pero a mitad del análi
 - **Variables inmobiliarias:** 8 atributos del mercado californiano (1990)
 - **Variable objetivo:** MEDV (precio mediano de viviendas en unidades de $100,000)
 - **Fuente:** [Scikit-learn Datasets](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)
-
-**Acceso al notebook completo:** [Práctica 5B - California Housing Missing Data](Practica_05b_California_Housing_Missing_Data.ipynb)
 
 ### Variables Principales Analizadas
 

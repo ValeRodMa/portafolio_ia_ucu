@@ -1,4 +1,11 @@
 # Encoding Avanzado - Employee Attrition: comparando técnicas para variables categóricas en datos de RR.HH.
+
+<a href="../../assets/Practica09B_Employee_Attrition_Encoding.ipynb" download="Practica09B_Employee_Attrition_Encoding.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor:** Valentín Rodríguez
@@ -8,8 +15,6 @@
 - **Dataset:** Employee Attrition (IBM HR Analytics) - 1,470 empleados, variables categóricas de RR.HH.
 
 ---
-
-**Acceso al notebook completo:** [Práctica 9B - Encoding Avanzado y Target Encoding - Employee Attrition](../assets/Practica09B_Employee_Attrition_Encoding.ipynb)
 
 ---
 
@@ -274,4 +279,3 @@ pipeline = Pipeline(steps=[
 ---
 
 *Este proyecto demuestra la importancia de comparar múltiples técnicas de encoding en diferentes contextos de negocio, mostrando que el mejor método puede variar según el dominio (RR.HH. vs Census) y las necesidades de interpretabilidad.*
-

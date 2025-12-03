@@ -1,4 +1,11 @@
 # Preprocesamiento avanzado de imágenes: análisis con dataset alternativo
+
+<a href="../../assets/Practica_13b_Image_Preprocessing_Alternative.ipynb" download="Practica_13b_Image_Preprocessing_Alternative.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor**: Valentín Rodríguez
@@ -35,8 +42,6 @@ Esta práctica representa una **versión alternativa** del análisis de preproce
 - **Dimensiones:** 6 imágenes diferentes (moon, text, chelsea, brick, grass, hubble_deep_field)
 - **Tipos:** Naturaleza, texturas, arquitectura, astronomía
 - **Fuente:** scikit-image data module
-
-**Acceso al notebook completo:** [Práctica 13B - Preprocesamiento de Imágenes Alternativo](../assets/Practica_13b_Image_Preprocessing_Alternative.ipynb)
 
 ### Imágenes Analizadas
 
@@ -210,4 +215,3 @@ metrics = calculate_qa_metrics(img_gray, kp)
 ---
 
 *Este análisis demuestra la versatilidad y aplicabilidad universal de las técnicas de preprocesamiento de imágenes, aplicando la misma metodología rigurosa a un dataset diferente (naturaleza, texturas, astronomía vs imágenes clásicas), validando la robustez del pipeline implementado.*
-

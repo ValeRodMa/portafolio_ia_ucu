@@ -1,4 +1,11 @@
 # Análisis de importancia de features: explorando distribuciones y selección de variables
+
+<a href="../../assets/Practica8.ipynb" download="Practica8.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -9,8 +16,6 @@
 - **Dataset**: Dataset inmobiliario con análisis de importancia de variables
 
 ---
-
-**Acceso al notebook completo:** [Práctica 8 - Análisis de Importancia de Features](../assets/Practica8.ipynb)
 
 ---
 
@@ -41,7 +46,6 @@ Este proyecto se centra en el **análisis de importancia de features** utilizand
 - **Dimensiones:** Dataset con múltiples variables inmobiliarias
 - **Variables analizadas:** 10+ features incluyendo transformaciones y variables derivadas
 - **Target:** Variable objetivo para predicción de precios
-
 
 ### Variables Principales Analizadas
 

@@ -5,6 +5,8 @@ date: 2025-08-13
 
 # Exploración inicial del Dataset Iris: descubriendo patrones morfológicos entre especies con Pandas
 
+📓 **[Acceder al Notebook en Google Colab](https://colab.research.google.com/drive/1chwkGY58rcG1R15Nguavc-XTnVwCsA0s)** - Notebook interactivo con todo el código y análisis
+
 {{ reading_time() }}
 
 - **Autores:** Alexia Aurrecoechea, Nahuel López y Valentín Rodríguez  
@@ -13,8 +15,6 @@ date: 2025-08-13
 - **Referencia:** [Tarea 1: Exploración del Dataset Iris](https://juanfkurucz.com/ucu-id/ut1/01-practica-iris/)
 
 *Un viaje exploratorio a través del dataset más emblemático de la ciencia de datos: el Iris. Descubrimos cómo las diferencias morfológicas entre especies pueden revelarse a través del análisis estadístico y la visualización, estableciendo las bases para futuros proyectos de machine learning.*
-
-📓 **[Acceder al Notebook en Google Colab](https://colab.research.google.com/drive/1chwkGY58rcG1R15Nguavc-XTnVwCsA0s)** - Notebook interactivo con todo el código y análisis
 
 ---
 
@@ -325,5 +325,4 @@ En este viaje, descubrimos el poder de:
 - **Escalabilidad**: Metodología aplicable a otros datasets de clasificación
 - **Profesionalismo**: Siguiendo estándares de la industria para EDA
 - **Aprendizaje**: Balanceando exploración guiada con descubrimiento independiente
-
 

@@ -50,7 +50,7 @@ def cosine_similarity(vec1, vec2):
     """Calcula la similitud coseno entre dos vectores."""
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-def search_relevant_chunks(query: str, top_k: int = 5):
+def search_relevant_chunks(query: str, top_k: int = 3, min_similarity: float = 0.4):
     """Busca los chunks más relevantes para una consulta."""
     if not embeddings_data:
         return []
@@ -142,9 +142,11 @@ def search_relevant_chunks(query: str, top_k: int = 5):
                 similarity += 0.5  # Boost mucho más fuerte
         similarities.append((similarity, item))
     
-    # Ordenar por similitud y tomar top_k
+    # Ordenar por similitud y tomar top_k con umbral mínimo
     similarities.sort(key=lambda x: x[0], reverse=True)
-    return [item for _, item in similarities[:top_k]]
+    # Filtrar por similitud mínima
+    filtered = [(sim, item) for sim, item in similarities[:top_k] if sim >= min_similarity]
+    return [item for _, item in filtered]
 
 @app.route('/health', methods=['GET'])
 def health():
@@ -161,8 +163,8 @@ def chat():
         if not query:
             return jsonify({"error": "Query vacía"}), 400
         
-        # Buscar chunks relevantes
-        relevant_chunks = search_relevant_chunks(query, top_k=5)
+        # Buscar chunks relevantes (reducido a 3 para mayor velocidad)
+        relevant_chunks = search_relevant_chunks(query, top_k=3, min_similarity=0.4)
         
         if not relevant_chunks:
             return jsonify({
@@ -188,15 +190,22 @@ def chat():
         context = "\n\n---\n\n".join(context_parts)
         
         # Generar respuesta con GPT
-        system_prompt = """Eres un asistente inteligente que ayuda a los visitantes del portfolio de Ingeniería de Datos de la Universidad Católica del Uruguay.
+        system_prompt = """Eres un asistente especializado en el portfolio de Ingeniería de Datos de la Universidad Católica del Uruguay.
 
-INSTRUCCIONES IMPORTANTES:
-1. Responde ÚNICAMENTE basándote en el contexto del portfolio proporcionado.
-2. Si la pregunta menciona un número de práctica (ej: "práctica 4", "práctico 4"), busca específicamente información de esa práctica.
-3. Sé preciso y específico. Si preguntan sobre una práctica en particular, enfócate en esa práctica.
-4. Si no encuentras la información exacta en el contexto, di claramente que no tienes esa información específica.
-5. Sé conciso pero completo. Explica de manera clara y sencilla.
-6. Menciona siempre de qué práctica o sección viene la información cuando sea relevante."""
+REGLAS ESTRICTAS:
+1. SOLO responde preguntas sobre el contenido del portfolio proporcionado en el contexto.
+2. Si la pregunta NO está relacionada con el portfolio, responde: "Lo siento, solo puedo responder preguntas sobre el contenido de este portfolio de Ingeniería de Datos."
+3. NO uses conocimiento externo. Si no está en el contexto, NO lo inventes.
+4. Si preguntan sobre una práctica específica, enfócate solo en esa práctica.
+5. Sé conciso (máximo 3-4 frases) y directo.
+6. Menciona el número de práctica o sección cuando sea relevante.
+
+EJEMPLOS DE PREGUNTAS QUE NO DEBES RESPONDER:
+- Preguntas geográficas, históricas o de cultura general
+- Preguntas sobre otros temas no relacionados con el portfolio
+- Preguntas sobre programación general no relacionadas con las prácticas
+
+Si la pregunta no está relacionada con el portfolio, di claramente que solo respondes sobre el contenido del portfolio."""
         
         try:
             response = client.chat.completions.create(
@@ -205,8 +214,8 @@ INSTRUCCIONES IMPORTANTES:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": f"Contexto del portfolio:\n\n{context}\n\nPregunta del usuario: {query}"}
                 ],
-                temperature=0.7,
-                max_tokens=500
+                temperature=0.3,  # Más bajo para respuestas más consistentes
+                max_tokens=350  # Reducido para respuestas más rápidas y concisas
             )
             
             answer = response.choices[0].message.content

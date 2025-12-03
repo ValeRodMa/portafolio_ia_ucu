@@ -1,4 +1,11 @@
 # 06B: Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset
+
+<a href="../../assets/Practica06B_Heart_Disease_Feature_Scaling.ipynb" download="Practica06B_Heart_Disease_Feature_Scaling.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 
 - **Autor:** Valentín Rodríguez
@@ -29,8 +36,6 @@
 
 ---
 
-**Acceso al notebook completo:** [Práctica 6B Feature Scaling & Anti-Leakage Pipeline - Heart Disease Dataset](../assets/Practica06B_Heart_Disease_Feature_Scaling.ipynb)
-
 ---
 
 ## 📊 Dataset y Contexto Médico
@@ -50,7 +55,6 @@
 - `thalach` (71-202): Frecuencia cardíaca máxima alcanzada
 
 - `oldpeak` (0-6.2): Depresión del ST inducida por ejercicio
-
 
 **Target:** Presencia de enfermedad cardíaca (0=No, 1=Sí)  
 **Distribución:** 54.2% No Disease, 45.8% Disease  
@@ -141,7 +145,6 @@ accuracy_cv = cv_scores.mean()  # 0.8283 ± 0.0412
 - **Sin Leakage:** 0.8167 (CORRECTO - métricas honestas)  
 
 - **Pipeline + CV:** 0.8283 (ÓPTIMO - validación robusta)
-
 
 **Impacto del leakage:** ΔAccuracy = +0.0333 (inflación artificial del 3.3%)
 

@@ -1,4 +1,11 @@
 # Geoanálisis urbano con GeoPandas: análisis de densidad y servicios en Montevideo
+
+<a href="../../assets/Practica_12b_Montevideo_Geospatial_Analysis.ipynb" download="Practica_12b_Montevideo_Geospatial_Analysis.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autor**: Valentín Rodríguez
@@ -36,8 +43,6 @@ Esta práctica representa una **versión alternativa** del análisis geoespacial
 - **Dimensiones:** 18 barrios con datos demográficos y de servicios
 - **Variables principales:** Población, viviendas, solicitudes de servicios públicos
 - **Fuente:** Datos sintéticos generados para demostración metodológica
-
-**Acceso al notebook completo:** [Práctica 12B - Geoanálisis Montevideo](../assets/Practica_12b_Montevideo_Geospatial_Analysis.ipynb)
 
 ### Barrios Analizados
 
@@ -191,4 +196,3 @@ est_x_barrio = gpd.sjoin(estaciones_mvd, barrios_mvd_m, how="left", predicate="w
 ---
 
 *Este análisis demuestra la versatilidad y aplicabilidad universal de las técnicas geoespaciales, aplicando la misma metodología rigurosa a un contexto urbano diferente (Montevideo vs CABA), validando la robustez del pipeline implementado.*
-

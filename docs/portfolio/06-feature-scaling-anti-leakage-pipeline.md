@@ -1,4 +1,11 @@
 # Transformando datos inmobiliarios: pipeline anti-leakage para predicciones justas
+
+<a href="../../assets/Practica_6_Feature_Scaling_Anti-Leakage_Pipeline.ipynb" download="Practica_6_Feature_Scaling_Anti-Leakage_Pipeline.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -40,10 +47,6 @@ Esta práctica se enfoca en uno de los aspectos más críticos del preprocessing
 
 - **Target:** SalePrice (predicción de precios de casas)
 
-
-**Acceso al notebook completo:** [Práctica 6 - Feature Scaling & Anti-Leakage Pipeline](../assets/Practica_6_Feature_Scaling_Anti-Leakage_Pipeline.ipynb)
-
-
 ### Análisis de Algunas Escalas Problemáticas
 
 | Variable | Rango (min–max) | Ratio | ¿Problemática? |
@@ -64,7 +67,6 @@ Esta práctica se enfoca en uno de los aspectos más críticos del preprocessing
 - Evaluación con diferentes algoritmos (KNN, SVM, Linear Regression)
 
 - **Resultado:** StandardScaler mostró mejor consistencia para modelos lineales
-
 
 ### 2. Transformaciones Avanzadas
 
@@ -92,7 +94,6 @@ Esta práctica se enfoca en uno de los aspectos más críticos del preprocessing
 - **Después del escalado:** IQR detecta 107 outliers
 
 - **Recomendación:** Tratar outliers antes del escalado
-
 
 ## ⚠️ Data Leakage: El Experimento Crítico
 
@@ -181,7 +182,6 @@ mi_mejor_pipeline = Pipeline([
 
 - **QuantileTransformer:** Distribuciones multimodales o colas extremas
 
-
 **Orden óptimo de operaciones:**
 1. Detección/tratamiento de outliers
 
@@ -190,7 +190,6 @@ mi_mejor_pipeline = Pipeline([
 3. Escalado (Standard, MinMax, Robust)
 
 4. Validación con Pipeline
-
 
 ## 🎓 Aprendizajes Clave
 
@@ -206,8 +205,6 @@ Esta práctica consolidó conceptos fundamentales sobre:
 ## 🎁 Bonus
 
 En esta sección adicional, exploramos técnicas avanzadas de feature engineering y análisis comparativo más profundo de las transformaciones. Se implementan visualizaciones detalladas que muestran el impacto específico de cada transformador en las distribuciones de datos, análisis de correlaciones antes y después de las transformaciones, y comparaciones lado a lado de múltiples técnicas de escalado.
-
-**Descarga el notebook completo del bonus:** [Práctica 6 Bonus - Análisis Avanzado](../assets/Practica6Bonus.ipynb)
 
 ### Análisis Exhaustivo de Distribuciones: Se analizan todos los atributos.
 
@@ -228,7 +225,6 @@ En esta sección adicional, exploramos técnicas avanzadas de feature engineerin
 
 ![Boxplots por Variable](../assets/boxplots-detailed.png)
 *Análisis individualizado de boxplots para cada variable, permitiendo identificar patrones específicos de outliers y rangos intercuartílicos.*
-
 
 ### 📑 Reporte de Transformaciones Numéricas
 
@@ -277,6 +273,4 @@ En esta sección adicional, exploramos técnicas avanzadas de feature engineerin
 
 📌 **Indicadores `*_gt0`**: columnas adicionales que marcan la **presencia (>0)** en variables cero-infladas, para complementar el valor transformado.  
 
-📌 **Años**: `Year Built`, `Year Remod/Add`, `Garage Yr Blt` se convirtieron en **edades relativas a `Yr Sold`**, lo que tiene más sentido analítico.  
-
----
+📌 **Años**: `Year Built`, `Year Remod/Add`, `Garage Yr Blt` se convirtieron en **edades relativas a `Yr Sold`**, lo que tiene más sentido analítico.

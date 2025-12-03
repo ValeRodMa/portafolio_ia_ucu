@@ -1,7 +1,13 @@
 # Desenmascarando sesgos algorítmicos: análisis ético con Fairlearn en datasets históricos
+
+<a href="../../assets/Práctica7.ipynb" download="Práctica7.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
-- **Notebook completo**: [Práctica7.ipynb](../assets/Práctica7.ipynb)
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -118,7 +124,6 @@ print(f"Correlación B-precio: {df['B'].corr(df['price']):.3f}")
 
 - **Correlación negativa**: Variable B muestra correlación negativa con precios (-0.385)
 
-
 **⚠️ Implicaciones Éticas:**
 
 - Este sesgo refleja **discriminación histórica** en políticas habitacionales
@@ -126,7 +131,6 @@ print(f"Correlación B-precio: {df['B'].corr(df['price']):.3f}")
 - La variable B actúa como **proxy racial** problemático para predicciones
 
 - **No es apropiado** intentar "corregir" este sesgo automáticamente sin abordar las causas estructurales
-
 
 **🎯 Decisión de Detección vs Corrección:**
 
@@ -139,7 +143,6 @@ En este caso, **DETECTAR** es más valioso que corregir porque:
 3. **Evita** perpetuar discriminación en nuevos modelos
 
 4. **Informa** decisiones éticas sobre uso del dataset
-
 
 ## ⚖️ Framework Ético Desarrollado
 
@@ -206,7 +209,6 @@ Esta práctica demuestra la importancia crítica de:
 - **Evaluación contextual** de trade-offs
 
 - **Responsabilidad social** en data science
-
 
 El framework desarrollado es aplicable a cualquier dominio donde la equidad sea una consideración importante, especialmente en sectores como finanzas, recursos humanos, justicia y salud.
 

@@ -1,4 +1,11 @@
 # Preprocesamiento avanzado de imágenes: contraste, suavizado y features locales
+
+<a href="../../assets/Practico_13.ipynb" download="Practico_13.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -8,8 +15,6 @@
 - **Dataset**: Pack clásico de `skimage` (camera, astronaut, coffee, coins, checkerboard, rocket, page)
 
 ---
-
-**Acceso al notebook completo:** [Práctica 13 - Preprocesamiento de Imágenes](../assets/Practico_13.ipynb)
 
 ---
 

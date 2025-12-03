@@ -1,4 +1,11 @@
 # Encoding Avanzado y Target Encoding: comparando técnicas para variables categóricas de alta cardinalidad
+
+<a href="../../assets/Practica09.ipynb" download="Practica09.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -8,8 +15,6 @@
 - **Dataset**: Adult Income (US Census 1994) - 32,561 registros
 
 ---
-
-**Acceso al notebook completo:** [Práctica 9 - Encoding Avanzado y Target Encoding](../assets/Practica09.ipynb)
 
 ---
 
@@ -316,7 +321,6 @@ X_test_binary = binary_encoder.transform(X_test)
 
 - **One-Hot**: 84.71% accuracy con 30 features
 
-
 **Insights:**
 
 - **Label Encoding** sorprendió con el mejor rendimiento general
@@ -412,5 +416,3 @@ X_test_binary = binary_encoder.transform(X_test)
     - **Contexto**: Dataset del US Census (1994) - clásico de Machine Learning
     - **Target**: Ingreso >50K/año (clasificación binaria)
     - **Registros**: 32,561 después de limpieza
-
----

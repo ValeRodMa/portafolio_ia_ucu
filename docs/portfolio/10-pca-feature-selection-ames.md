@@ -1,4 +1,11 @@
 # PCA y Feature Selection: reducción dimensional y selección estratégica en Ames Housing
+
+<a href="../../assets/Practica10.ipynb" download="Practica10.ipynb">
+
+📓 **Descargar Jupyter Notebook Completo**
+
+</a>
+
 {{ reading_time() }}
 ---
 - **Autores**: Joaquín Batista, Milagros Cancela, Valentín Rodríguez, Alexia Aurrecoechea, Nahuel López (G1)
@@ -9,8 +16,6 @@
 - **Fecha**: Octubre 2025
 
 ---
-
-**Acceso al notebook completo:** [Práctica 10 - PCA y Feature Selection](../assets/Practica10.ipynb)
 
 ---
 
