@@ -4,6 +4,5 @@ venv/
 .env
 site/
 .DS_Store
-docs/assets/javascripts/chatbot.js
 chatbot/embeddings/embeddings.json
 chatbot/data/content_chunks.json
