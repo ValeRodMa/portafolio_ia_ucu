@@ -43,3 +43,4 @@ echo ""
 echo "⚠️  IMPORTANTE: Este script NO hace el commit todavía."
 echo "   Cuando estés listo, ejecuta: git commit -m 'feat: commit final del portfolio - incluye chatbot, UT5 y actualizaciones completas'"
 
+
